@@ -1,0 +1,466 @@
+#-----------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Thu Mar 30 18:19:05 2017
+# Process ID: 8552
+# Current directory: c:/Xilinx/Projects/stable_puck_detection/ip_repo/edit_stable_puck_detection_v1_0.runs/synth_1
+# Command line: vivado.exe -log stable_puck_detection_v1_0.vds -mode batch -messageDb vivado.pb -notrace -source stable_puck_detection_v1_0.tcl
+# Log file: c:/Xilinx/Projects/stable_puck_detection/ip_repo/edit_stable_puck_detection_v1_0.runs/synth_1/stable_puck_detection_v1_0.vds
+# Journal file: c:/Xilinx/Projects/stable_puck_detection/ip_repo/edit_stable_puck_detection_v1_0.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source stable_puck_detection_v1_0.tcl -notrace
+Command: synth_design -top stable_puck_detection_v1_0 -part xc7a200tsbg484-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a200t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a200t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 15992 
+WARNING: [Synth 8-2507] parameter declaration becomes local in stable_puck_detection_v1_0_S00_AXIS with formal parameter declaration list [c:/Xilinx/Projects/stable_puck_detection/ip_repo/stable_puck_detection_1.0/hdl/stable_puck_detection_v1_0_S00_AXIS.v:83]
+WARNING: [Synth 8-1102] /* in comment [c:/Xilinx/Projects/stable_puck_detection/ip_repo/stable_puck_detection_1.0/hdl/stable_puck_detection_v1_0_M00_AXIS.v:150]
+WARNING: [Synth 8-2507] parameter declaration becomes local in stable_puck_detection_v1_0_M00_AXIS with formal parameter declaration list [c:/Xilinx/Projects/stable_puck_detection/ip_repo/stable_puck_detection_1.0/hdl/stable_puck_detection_v1_0_M00_AXIS.v:68]
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:07 ; elapsed = 00:00:11 . Memory (MB): peak = 326.570 ; gain = 119.461
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'stable_puck_detection_v1_0' [c:/Xilinx/Projects/stable_puck_detection/ip_repo/stable_puck_detection_1.0/hdl/stable_puck_detection_v1_0.v:4]
+	Parameter FIFO_DEPTH_SLV bound to: 1280 - type: integer 
+	Parameter NUMBER_OF_INPUT_WORDS bound to: 1280 - type: integer 
+	Parameter C_S00_AXIS_TDATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S00_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S00_AXI_ADDR_WIDTH bound to: 6 - type: integer 
+	Parameter FIFO_DEPTH_MS bound to: 1280 - type: integer 
+	Parameter NUMBER_OF_OUTPUT_WORDS bound to: 1280 - type: integer 
+	Parameter C_M00_AXIS_TDATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_M00_AXIS_START_COUNT bound to: 32 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'stable_puck_detection_v1_0_S00_AXIS' [c:/Xilinx/Projects/stable_puck_detection/ip_repo/stable_puck_detection_1.0/hdl/stable_puck_detection_v1_0_S00_AXIS.v:4]
+	Parameter FIFO_DEPTH_SLV bound to: 1280 - type: integer 
+	Parameter NUMBER_OF_INPUT_WORDS bound to: 1280 - type: integer 
+	Parameter C_S_AXIS_TDATA_WIDTH bound to: 32 - type: integer 
+	Parameter IDLE bound to: 3'b000 
+	Parameter WRITE_FIFO bound to: 3'b001 
+INFO: [Synth 8-155] case statement is not full and has no default [c:/Xilinx/Projects/stable_puck_detection/ip_repo/stable_puck_detection_1.0/hdl/stable_puck_detection_v1_0_S00_AXIS.v:102]
+INFO: [Synth 8-256] done synthesizing module 'stable_puck_detection_v1_0_S00_AXIS' (1#1) [c:/Xilinx/Projects/stable_puck_detection/ip_repo/stable_puck_detection_1.0/hdl/stable_puck_detection_v1_0_S00_AXIS.v:4]
+INFO: [Synth 8-638] synthesizing module 'stable_puck_detection_v1_0_S00_AXI' [c:/Xilinx/Projects/stable_puck_detection/ip_repo/stable_puck_detection_1.0/hdl/stable_puck_detection_v1_0_S00_AXI.v:4]
+	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S_AXI_ADDR_WIDTH bound to: 6 - type: integer 
+	Parameter ADDR_LSB bound to: 2 - type: integer 
+	Parameter OPT_MEM_ADDR_BITS bound to: 1 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'stable_puck_detection_v1_0_S00_AXI' (2#1) [c:/Xilinx/Projects/stable_puck_detection/ip_repo/stable_puck_detection_1.0/hdl/stable_puck_detection_v1_0_S00_AXI.v:4]
+INFO: [Synth 8-638] synthesizing module 'stable_puck_detection_v1_0_M00_AXIS' [c:/Xilinx/Projects/stable_puck_detection/ip_repo/stable_puck_detection_1.0/hdl/stable_puck_detection_v1_0_M00_AXIS.v:4]
+	Parameter FIFO_DEPTH_MS bound to: 1280 - type: integer 
+	Parameter NUMBER_OF_OUTPUT_WORDS bound to: 1280 - type: integer 
+	Parameter C_M_AXIS_TDATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_M_START_COUNT bound to: 32 - type: integer 
+	Parameter IDLE bound to: 3'b000 
+	Parameter WRITE_FIFO bound to: 3'b001 
+	Parameter READ_FIFO bound to: 3'b010 
+INFO: [Synth 8-155] case statement is not full and has no default [c:/Xilinx/Projects/stable_puck_detection/ip_repo/stable_puck_detection_1.0/hdl/stable_puck_detection_v1_0_M00_AXIS.v:87]
+WARNING: [Synth 8-3848] Net MS_CURR_STATE in module/entity stable_puck_detection_v1_0_M00_AXIS does not have driver. [c:/Xilinx/Projects/stable_puck_detection/ip_repo/stable_puck_detection_1.0/hdl/stable_puck_detection_v1_0_M00_AXIS.v:39]
+INFO: [Synth 8-256] done synthesizing module 'stable_puck_detection_v1_0_M00_AXIS' (3#1) [c:/Xilinx/Projects/stable_puck_detection/ip_repo/stable_puck_detection_1.0/hdl/stable_puck_detection_v1_0_M00_AXIS.v:4]
+INFO: [Synth 8-256] done synthesizing module 'stable_puck_detection_v1_0' (4#1) [c:/Xilinx/Projects/stable_puck_detection/ip_repo/stable_puck_detection_1.0/hdl/stable_puck_detection_v1_0.v:4]
+WARNING: [Synth 8-3331] design stable_puck_detection_v1_0_M00_AXIS has unconnected port MS_CURR_STATE[2]
+WARNING: [Synth 8-3331] design stable_puck_detection_v1_0_M00_AXIS has unconnected port MS_CURR_STATE[1]
+WARNING: [Synth 8-3331] design stable_puck_detection_v1_0_M00_AXIS has unconnected port MS_CURR_STATE[0]
+WARNING: [Synth 8-3331] design stable_puck_detection_v1_0_S00_AXI has unconnected port S_AXI_AWPROT[2]
+WARNING: [Synth 8-3331] design stable_puck_detection_v1_0_S00_AXI has unconnected port S_AXI_AWPROT[1]
+WARNING: [Synth 8-3331] design stable_puck_detection_v1_0_S00_AXI has unconnected port S_AXI_AWPROT[0]
+WARNING: [Synth 8-3331] design stable_puck_detection_v1_0_S00_AXI has unconnected port S_AXI_WSTRB[3]
+WARNING: [Synth 8-3331] design stable_puck_detection_v1_0_S00_AXI has unconnected port S_AXI_WSTRB[2]
+WARNING: [Synth 8-3331] design stable_puck_detection_v1_0_S00_AXI has unconnected port S_AXI_WSTRB[1]
+WARNING: [Synth 8-3331] design stable_puck_detection_v1_0_S00_AXI has unconnected port S_AXI_WSTRB[0]
+WARNING: [Synth 8-3331] design stable_puck_detection_v1_0_S00_AXI has unconnected port S_AXI_ARPROT[2]
+WARNING: [Synth 8-3331] design stable_puck_detection_v1_0_S00_AXI has unconnected port S_AXI_ARPROT[1]
+WARNING: [Synth 8-3331] design stable_puck_detection_v1_0_S00_AXI has unconnected port S_AXI_ARPROT[0]
+WARNING: [Synth 8-3331] design stable_puck_detection_v1_0_S00_AXIS has unconnected port MS_CURR_STATE[2]
+WARNING: [Synth 8-3331] design stable_puck_detection_v1_0_S00_AXIS has unconnected port MS_CURR_STATE[1]
+WARNING: [Synth 8-3331] design stable_puck_detection_v1_0_S00_AXIS has unconnected port MS_CURR_STATE[0]
+WARNING: [Synth 8-3331] design stable_puck_detection_v1_0_S00_AXIS has unconnected port S_AXIS_TDATA[31]
+WARNING: [Synth 8-3331] design stable_puck_detection_v1_0_S00_AXIS has unconnected port S_AXIS_TDATA[30]
+WARNING: [Synth 8-3331] design stable_puck_detection_v1_0_S00_AXIS has unconnected port S_AXIS_TDATA[29]
+WARNING: [Synth 8-3331] design stable_puck_detection_v1_0_S00_AXIS has unconnected port S_AXIS_TDATA[28]
+WARNING: [Synth 8-3331] design stable_puck_detection_v1_0_S00_AXIS has unconnected port S_AXIS_TDATA[27]
+WARNING: [Synth 8-3331] design stable_puck_detection_v1_0_S00_AXIS has unconnected port S_AXIS_TDATA[26]
+WARNING: [Synth 8-3331] design stable_puck_detection_v1_0_S00_AXIS has unconnected port S_AXIS_TDATA[25]
+WARNING: [Synth 8-3331] design stable_puck_detection_v1_0_S00_AXIS has unconnected port S_AXIS_TDATA[24]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:08 ; elapsed = 00:00:13 . Memory (MB): peak = 349.359 ; gain = 142.250
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:08 ; elapsed = 00:00:13 . Memory (MB): peak = 349.359 ; gain = 142.250
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a200tsbg484-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:08 ; elapsed = 00:00:13 . Memory (MB): peak = 349.359 ; gain = 142.250
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a200tsbg484-1
+INFO: [Synth 8-5544] ROM "mst_exec_state" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5545] ROM "x_pos_per_frame_reg1" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "threshold_pos1" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5546] ROM "slv_reg0" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "slv_reg1" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "slv_reg2" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "slv_reg3" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "slv_reg4" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "slv_reg5" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "slv_reg6" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "slv_reg7" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "slv_reg10" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "slv_reg11" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "slv_reg12" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "slv_reg13" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "slv_reg14" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "mst_exec_state" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "mst_exec_state" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:10 ; elapsed = 00:00:14 . Memory (MB): peak = 376.742 ; gain = 169.633
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     32 Bit       Adders := 2     
+	   2 Input     32 Bit       Adders := 2     
+	   2 Input     11 Bit       Adders := 2     
+	   2 Input      6 Bit       Adders := 1     
+	   2 Input      5 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 24    
+	               11 Bit    Registers := 2     
+	                6 Bit    Registers := 3     
+	                5 Bit    Registers := 1     
+	                3 Bit    Registers := 2     
+	                2 Bit    Registers := 2     
+	                1 Bit    Registers := 9     
++---Multipliers : 
+	                 2x32  Multipliers := 1     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 2     
+	   3 Input     32 Bit        Muxes := 5     
+	   2 Input     24 Bit        Muxes := 4     
+	   2 Input      3 Bit        Muxes := 3     
+	   3 Input      3 Bit        Muxes := 1     
+	  14 Input      2 Bit        Muxes := 5     
+	   2 Input      2 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 23    
+	  14 Input      1 Bit        Muxes := 13    
+	   3 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module stable_puck_detection_v1_0 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     32 Bit       Adders := 1     
++---Muxes : 
+	   2 Input     24 Bit        Muxes := 4     
+Module stable_puck_detection_v1_0_S00_AXIS 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     32 Bit       Adders := 1     
+	   2 Input     32 Bit       Adders := 2     
+	   2 Input     11 Bit       Adders := 1     
+	   2 Input      6 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 8     
+	               11 Bit    Registers := 1     
+	                6 Bit    Registers := 1     
+	                3 Bit    Registers := 1     
+	                1 Bit    Registers := 2     
++---Multipliers : 
+	                 2x32  Multipliers := 1     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 2     
+	   2 Input      3 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 12    
+Module stable_puck_detection_v1_0_S00_AXI 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 16    
+	                6 Bit    Registers := 2     
+	                2 Bit    Registers := 2     
+	                1 Bit    Registers := 5     
++---Muxes : 
+	   3 Input     32 Bit        Muxes := 5     
+	  14 Input      2 Bit        Muxes := 5     
+	   2 Input      1 Bit        Muxes := 4     
+	  14 Input      1 Bit        Muxes := 13    
+Module stable_puck_detection_v1_0_M00_AXIS 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     11 Bit       Adders := 1     
+	   2 Input      5 Bit       Adders := 1     
++---Registers : 
+	               11 Bit    Registers := 1     
+	                5 Bit    Registers := 1     
+	                3 Bit    Registers := 1     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input      3 Bit        Muxes := 1     
+	   3 Input      3 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 7     
+	   3 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 740 (col length:100)
+BRAMs: 730 (col length: RAMB18 100 RAMB36 50)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+Start Parallel Synthesis Optimization  : Time (s): cpu = 00:00:13 ; elapsed = 00:00:19 . Memory (MB): peak = 489.449 ; gain = 282.340
+---------------------------------------------------------------------------------
+Start Cross Boundary Optimization
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5545] ROM "threshold_pos1" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "x_pos_per_frame_reg1" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+WARNING: [Synth 8-3331] design stable_puck_detection_v1_0_M00_AXIS has unconnected port MS_CURR_STATE[2]
+WARNING: [Synth 8-3331] design stable_puck_detection_v1_0_M00_AXIS has unconnected port MS_CURR_STATE[1]
+WARNING: [Synth 8-3331] design stable_puck_detection_v1_0_M00_AXIS has unconnected port MS_CURR_STATE[0]
+WARNING: [Synth 8-3331] design stable_puck_detection_v1_0_S00_AXI has unconnected port S_AXI_AWPROT[2]
+WARNING: [Synth 8-3331] design stable_puck_detection_v1_0_S00_AXI has unconnected port S_AXI_AWPROT[1]
+WARNING: [Synth 8-3331] design stable_puck_detection_v1_0_S00_AXI has unconnected port S_AXI_AWPROT[0]
+WARNING: [Synth 8-3331] design stable_puck_detection_v1_0_S00_AXI has unconnected port S_AXI_WSTRB[3]
+WARNING: [Synth 8-3331] design stable_puck_detection_v1_0_S00_AXI has unconnected port S_AXI_WSTRB[2]
+WARNING: [Synth 8-3331] design stable_puck_detection_v1_0_S00_AXI has unconnected port S_AXI_WSTRB[1]
+WARNING: [Synth 8-3331] design stable_puck_detection_v1_0_S00_AXI has unconnected port S_AXI_WSTRB[0]
+WARNING: [Synth 8-3331] design stable_puck_detection_v1_0_S00_AXI has unconnected port S_AXI_ARPROT[2]
+WARNING: [Synth 8-3331] design stable_puck_detection_v1_0_S00_AXI has unconnected port S_AXI_ARPROT[1]
+WARNING: [Synth 8-3331] design stable_puck_detection_v1_0_S00_AXI has unconnected port S_AXI_ARPROT[0]
+WARNING: [Synth 8-3331] design stable_puck_detection_v1_0_S00_AXIS has unconnected port MS_CURR_STATE[2]
+WARNING: [Synth 8-3331] design stable_puck_detection_v1_0_S00_AXIS has unconnected port MS_CURR_STATE[1]
+WARNING: [Synth 8-3331] design stable_puck_detection_v1_0_S00_AXIS has unconnected port MS_CURR_STATE[0]
+WARNING: [Synth 8-3331] design stable_puck_detection_v1_0_S00_AXIS has unconnected port S_AXIS_TDATA[31]
+WARNING: [Synth 8-3331] design stable_puck_detection_v1_0_S00_AXIS has unconnected port S_AXIS_TDATA[30]
+WARNING: [Synth 8-3331] design stable_puck_detection_v1_0_S00_AXIS has unconnected port S_AXIS_TDATA[29]
+WARNING: [Synth 8-3331] design stable_puck_detection_v1_0_S00_AXIS has unconnected port S_AXIS_TDATA[28]
+WARNING: [Synth 8-3331] design stable_puck_detection_v1_0_S00_AXIS has unconnected port S_AXIS_TDATA[27]
+WARNING: [Synth 8-3331] design stable_puck_detection_v1_0_S00_AXIS has unconnected port S_AXIS_TDATA[26]
+WARNING: [Synth 8-3331] design stable_puck_detection_v1_0_S00_AXIS has unconnected port S_AXIS_TDATA[25]
+WARNING: [Synth 8-3331] design stable_puck_detection_v1_0_S00_AXIS has unconnected port S_AXIS_TDATA[24]
+---------------------------------------------------------------------------------
+Finished Cross Boundary Optimization : Time (s): cpu = 00:00:14 ; elapsed = 00:00:20 . Memory (MB): peak = 490.582 ; gain = 283.473
+---------------------------------------------------------------------------------
+Finished Parallel Reinference  : Time (s): cpu = 00:00:14 ; elapsed = 00:00:20 . Memory (MB): peak = 490.582 ; gain = 283.473
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Distributed RAM: Preliminary Mapping  Report (see note below)
++---------------------------+-------------------+-----------+----------------------+-------------------+
+|Module Name                | RTL Object        | Inference | Size (Depth x Width) | Primitives        | 
++---------------------------+-------------------+-----------+----------------------+-------------------+
+|stable_puck_detection_v1_0 | RGB_data_fifo_reg | Implied   | 2 K x 24             | RAM128X1D x 240   | 
++---------------------------+-------------------+-----------+----------------------+-------------------+
+
+Note: The table above is a preliminary report that shows the Distributed RAMs at the current stage of the synthesis flow. Some Distributed RAMs may be reimplemented as non Distributed RAM primitives later in the synthesis flow. Multiple instantiated RAMs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Area Optimization
+---------------------------------------------------------------------------------
+INFO: [Synth 8-3886] merging instance 'stable_puck_detection_v1_0_S00_AXI_inst/slv_reg9_reg[31]' (FD) to 'stable_puck_detection_v1_0_S00_AXI_inst/slv_reg8_reg[31]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\stable_puck_detection_v1_0_S00_AXI_inst/slv_reg8_reg[31] )
+INFO: [Synth 8-3886] merging instance 'stable_puck_detection_v1_0_S00_AXI_inst/axi_rresp_reg[0]' (FDRE) to 'stable_puck_detection_v1_0_S00_AXI_inst/axi_rresp_reg[1]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\stable_puck_detection_v1_0_S00_AXI_inst/axi_rresp_reg[1] )
+INFO: [Synth 8-3886] merging instance 'stable_puck_detection_v1_0_S00_AXI_inst/axi_bresp_reg[0]' (FDRE) to 'stable_puck_detection_v1_0_S00_AXI_inst/axi_bresp_reg[1]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\stable_puck_detection_v1_0_S00_AXI_inst/axi_bresp_reg[1] )
+INFO: [Synth 8-3886] merging instance 'stable_puck_detection_v1_0_S00_AXIS_inst/mst_exec_state_reg[2]' (FDRE) to 'stable_puck_detection_v1_0_S00_AXIS_inst/mst_exec_state_reg[1]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\stable_puck_detection_v1_0_S00_AXIS_inst/mst_exec_state_reg[1] )
+INFO: [Synth 8-3886] merging instance 'stable_puck_detection_v1_0_M00_AXIS_inst/mst_exec_state_reg[0]' (FDRE) to 'stable_puck_detection_v1_0_M00_AXIS_inst/mst_exec_state_reg[2]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\stable_puck_detection_v1_0_M00_AXIS_inst/mst_exec_state_reg[2] )
+WARNING: [Synth 8-3332] Sequential element (stable_puck_detection_v1_0_S00_AXIS_inst/mst_exec_state_reg[2]) is unused and will be removed from module stable_puck_detection_v1_0.
+WARNING: [Synth 8-3332] Sequential element (stable_puck_detection_v1_0_S00_AXIS_inst/mst_exec_state_reg[1]) is unused and will be removed from module stable_puck_detection_v1_0.
+WARNING: [Synth 8-3332] Sequential element (stable_puck_detection_v1_0_S00_AXI_inst/axi_bresp_reg[1]) is unused and will be removed from module stable_puck_detection_v1_0.
+WARNING: [Synth 8-3332] Sequential element (stable_puck_detection_v1_0_S00_AXI_inst/axi_bresp_reg[0]) is unused and will be removed from module stable_puck_detection_v1_0.
+WARNING: [Synth 8-3332] Sequential element (stable_puck_detection_v1_0_S00_AXI_inst/axi_rresp_reg[1]) is unused and will be removed from module stable_puck_detection_v1_0.
+WARNING: [Synth 8-3332] Sequential element (stable_puck_detection_v1_0_S00_AXI_inst/axi_rresp_reg[0]) is unused and will be removed from module stable_puck_detection_v1_0.
+WARNING: [Synth 8-3332] Sequential element (stable_puck_detection_v1_0_S00_AXI_inst/slv_reg8_reg[31]) is unused and will be removed from module stable_puck_detection_v1_0.
+WARNING: [Synth 8-3332] Sequential element (stable_puck_detection_v1_0_S00_AXI_inst/slv_reg9_reg[31]) is unused and will be removed from module stable_puck_detection_v1_0.
+WARNING: [Synth 8-3332] Sequential element (stable_puck_detection_v1_0_M00_AXIS_inst/mst_exec_state_reg[2]) is unused and will be removed from module stable_puck_detection_v1_0.
+WARNING: [Synth 8-3332] Sequential element (stable_puck_detection_v1_0_M00_AXIS_inst/mst_exec_state_reg[0]) is unused and will be removed from module stable_puck_detection_v1_0.
+---------------------------------------------------------------------------------
+Finished Area Optimization : Time (s): cpu = 00:00:19 ; elapsed = 00:00:26 . Memory (MB): peak = 555.031 ; gain = 347.922
+---------------------------------------------------------------------------------
+Finished Parallel Area Optimization  : Time (s): cpu = 00:00:19 ; elapsed = 00:00:26 . Memory (MB): peak = 555.031 ; gain = 347.922
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:19 ; elapsed = 00:00:26 . Memory (MB): peak = 555.031 ; gain = 347.922
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:20 ; elapsed = 00:00:27 . Memory (MB): peak = 555.031 ; gain = 347.922
+---------------------------------------------------------------------------------
+Finished Parallel Technology Mapping Optimization  : Time (s): cpu = 00:00:20 ; elapsed = 00:00:27 . Memory (MB): peak = 555.031 ; gain = 347.922
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+Finished Parallel Synthesis Optimization  : Time (s): cpu = 00:00:20 ; elapsed = 00:00:27 . Memory (MB): peak = 555.031 ; gain = 347.922
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:21 ; elapsed = 00:00:28 . Memory (MB): peak = 555.031 ; gain = 347.922
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:21 ; elapsed = 00:00:28 . Memory (MB): peak = 555.031 ; gain = 347.922
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:21 ; elapsed = 00:00:28 . Memory (MB): peak = 555.031 ; gain = 347.922
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:21 ; elapsed = 00:00:28 . Memory (MB): peak = 555.031 ; gain = 347.922
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:21 ; elapsed = 00:00:28 . Memory (MB): peak = 555.031 ; gain = 347.922
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:21 ; elapsed = 00:00:28 . Memory (MB): peak = 555.031 ; gain = 347.922
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+----------+------+
+|      |Cell      |Count |
++------+----------+------+
+|1     |BUFG      |     4|
+|2     |CARRY4    |   146|
+|3     |LUT1      |    84|
+|4     |LUT2      |   440|
+|5     |LUT3      |   112|
+|6     |LUT4      |   514|
+|7     |LUT5      |   273|
+|8     |LUT6      |   319|
+|9     |MUXF7     |    31|
+|10    |RAM128X1D |   240|
+|11    |FDRE      |   924|
+|12    |FDSE      |    34|
+|13    |IBUF      |    82|
+|14    |OBUF      |   561|
++------+----------+------+
+
+Report Instance Areas: 
++------+-------------------------------------------+------------------------------------+------+
+|      |Instance                                   |Module                              |Cells |
++------+-------------------------------------------+------------------------------------+------+
+|1     |top                                        |                                    |  3764|
+|2     |  stable_puck_detection_v1_0_M00_AXIS_inst |stable_puck_detection_v1_0_M00_AXIS |   218|
+|3     |  stable_puck_detection_v1_0_S00_AXIS_inst |stable_puck_detection_v1_0_S00_AXIS |  1223|
+|4     |  stable_puck_detection_v1_0_S00_AXI_inst  |stable_puck_detection_v1_0_S00_AXI  |  1435|
++------+-------------------------------------------+------------------------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:21 ; elapsed = 00:00:28 . Memory (MB): peak = 555.031 ; gain = 347.922
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 62 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:18 ; elapsed = 00:00:22 . Memory (MB): peak = 555.031 ; gain = 316.164
+Synthesis Optimization Complete : Time (s): cpu = 00:00:21 ; elapsed = 00:00:28 . Memory (MB): peak = 555.031 ; gain = 347.922
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 468 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 240 instances were transformed.
+  RAM128X1D => RAM128X1D (RAMD64E, RAMD64E, MUXF7, MUXF7, RAMD64E, RAMD64E): 240 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+49 Infos, 62 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:24 ; elapsed = 00:00:40 . Memory (MB): peak = 626.145 ; gain = 389.723
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.205 . Memory (MB): peak = 626.145 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Thu Mar 30 18:19:54 2017...

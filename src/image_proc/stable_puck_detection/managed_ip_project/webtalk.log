@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Webtalk v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Thu Mar 30 19:01:21 2017
+# Process ID: 16312
+# Current directory: C:/Xilinx/Projects/stable_puck_detection/managed_ip_project
+# Command line: wbtcv.exe -mode batch -source c:/xilinx/projects/stable_puck_detection/managed_ip_project/managed_ip_project.tmp/stable_puck_detection_v1_0_v1_0_project/stable_puck_detection_v1_0_v1_0_project.hw/webtalk/labtool_webtalk.tcl -notrace
+# Log file: C:/Xilinx/Projects/stable_puck_detection/managed_ip_project/webtalk.log
+# Journal file: C:/Xilinx/Projects/stable_puck_detection/managed_ip_project\webtalk.jou
+#-----------------------------------------------------------
+source c:/xilinx/projects/stable_puck_detection/managed_ip_project/managed_ip_project.tmp/stable_puck_detection_v1_0_v1_0_project/stable_puck_detection_v1_0_v1_0_project.hw/webtalk/labtool_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Thu Mar 30 19:01:21 2017...

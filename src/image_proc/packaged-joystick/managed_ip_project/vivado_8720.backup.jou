@@ -1,0 +1,43 @@
+#-----------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Tue Mar 28 15:52:49 2017
+# Process ID: 8720
+# Current directory: C:/Users/Jash/Desktop/packaged joystick/managed_ip_project
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent15488 C:\Users\Jash\Desktop\packaged joystick\managed_ip_project\managed_ip_project.xpr
+# Log file: C:/Users/Jash/Desktop/packaged joystick/managed_ip_project/vivado.log
+# Journal file: C:/Users/Jash/Desktop/packaged joystick/managed_ip_project\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/Jash/Desktop/packaged joystick/managed_ip_project/managed_ip_project.xpr}
+ipx::edit_ip_in_project -upgrade true -name packaged_joystick_v1_0_v1_0_project -directory {C:/Users/Jash/Desktop/packaged\ joystick/managed_ip_project/managed_ip_project.tmp/packaged_joystick_v1_0_v1_0_project} {c:/Users/Jash/Desktop/packaged joystick/ip_repo/packaged_joystick_1.0/component.xml}
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+ipx::merge_project_changes hdl_parameters [ipx::current_core]
+set_property core_revision 4 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+set_property core_revision 5 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+ipx::merge_project_changes hdl_parameters [ipx::current_core]
+ipx::merge_project_changes ports [ipx::current_core]
+set_property core_revision 6 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+set_property size_left 1 [ipx::get_ports motor_position -of_objects [ipx::current_core]]
+set_property size_left 0 [ipx::get_ports motor_position -of_objects [ipx::current_core]]
+set_property core_revision 7 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+close_project
+ipx::edit_ip_in_project -upgrade true -name packaged_joystick_v1_0_v1_0_project -directory {C:/Users/Jash/Desktop/packaged\ joystick/managed_ip_project/managed_ip_project.tmp/packaged_joystick_v1_0_v1_0_project} {c:/Users/Jash/Desktop/packaged joystick/ip_repo/packaged_joystick_1.0/component.xml}
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+current_project managed_ip_project
+close_project

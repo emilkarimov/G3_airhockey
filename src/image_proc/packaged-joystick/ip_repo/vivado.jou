@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Wed Mar 29 17:29:16 2017
+# Process ID: 5596
+# Current directory: C:/Users/Jash/Desktop/packaged joystick/ip_repo
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent8764 C:\Users\Jash\Desktop\packaged joystick\ip_repo\edit_packaged_joystick_v1_0.xpr
+# Log file: C:/Users/Jash/Desktop/packaged joystick/ip_repo/vivado.log
+# Journal file: C:/Users/Jash/Desktop/packaged joystick/ip_repo\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/Jash/Desktop/packaged joystick/ip_repo/edit_packaged_joystick_v1_0.xpr}
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+wait_on_run synth_1
+ipx::open_ipxact_file {C:/Users/Jash/Desktop/packaged joystick/ip_repo/packaged_joystick_1.0/component.xml}
+ipx::merge_project_changes hdl_parameters [ipx::current_core]
+set_property core_revision 12 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+update_ip_catalog -rebuild -repo_path {c:/Users/Jash/Desktop/packaged joystick/ip_repo/packaged_joystick_1.0}

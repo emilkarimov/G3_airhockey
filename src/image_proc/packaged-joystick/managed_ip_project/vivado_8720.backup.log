@@ -1,0 +1,77 @@
+#-----------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Tue Mar 28 15:52:49 2017
+# Process ID: 8720
+# Current directory: C:/Users/Jash/Desktop/packaged joystick/managed_ip_project
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent15488 C:\Users\Jash\Desktop\packaged joystick\managed_ip_project\managed_ip_project.xpr
+# Log file: C:/Users/Jash/Desktop/packaged joystick/managed_ip_project/vivado.log
+# Journal file: C:/Users/Jash/Desktop/packaged joystick/managed_ip_project\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/Jash/Desktop/packaged joystick/managed_ip_project/managed_ip_project.xpr}
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Jash/Desktop/packaged joystick/ip_repo/packaged_joystick_1.0'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2016.2/data/ip'.
+open_project: Time (s): cpu = 00:00:13 ; elapsed = 00:00:10 . Memory (MB): peak = 828.570 ; gain = 164.293
+ipx::edit_ip_in_project -upgrade true -name packaged_joystick_v1_0_v1_0_project -directory {C:/Users/Jash/Desktop/packaged\ joystick/managed_ip_project/managed_ip_project.tmp/packaged_joystick_v1_0_v1_0_project} {c:/Users/Jash/Desktop/packaged joystick/ip_repo/packaged_joystick_1.0/component.xml}
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'c:/users/jash/desktop/packaged joystick/managed_ip_project/managed_ip_project.tmp/packaged_joystick_v1_0_v1_0_project'
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2016.2/data/ip'.
+create_project: Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 837.887 ; gain = 9.316
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Jash/Desktop/packaged joystick/ip_repo/packaged_joystick_1.0'.
+INFO: [IP_Flow 19-795] Syncing license key meta-data
+INFO: [IP_Flow 19-793] Syncing display name meta-data
+INFO: [IP_Flow 19-798] Syncing taxonomy meta-data
+ipx::edit_ip_in_project: Time (s): cpu = 00:00:13 ; elapsed = 00:00:13 . Memory (MB): peak = 837.887 ; gain = 9.316
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+ipx::merge_project_changes hdl_parameters [ipx::current_core]
+set_property core_revision 4 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+set_property core_revision 5 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+ipx::merge_project_changes hdl_parameters [ipx::current_core]
+ipx::merge_project_changes ports [ipx::current_core]
+set_property core_revision 6 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+set_property size_left 1 [ipx::get_ports motor_position -of_objects [ipx::current_core]]
+set_property size_left 0 [ipx::get_ports motor_position -of_objects [ipx::current_core]]
+set_property core_revision 7 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+close_project
+close_project: Time (s): cpu = 00:00:03 ; elapsed = 00:00:07 . Memory (MB): peak = 915.598 ; gain = 0.000
+ipx::edit_ip_in_project -upgrade true -name packaged_joystick_v1_0_v1_0_project -directory {C:/Users/Jash/Desktop/packaged\ joystick/managed_ip_project/managed_ip_project.tmp/packaged_joystick_v1_0_v1_0_project} {c:/Users/Jash/Desktop/packaged joystick/ip_repo/packaged_joystick_1.0/component.xml}
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'c:/users/jash/desktop/packaged joystick/managed_ip_project/managed_ip_project.tmp/packaged_joystick_v1_0_v1_0_project'
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2016.2/data/ip'.
+create_project: Time (s): cpu = 00:00:05 ; elapsed = 00:00:09 . Memory (MB): peak = 915.598 ; gain = 0.000
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Jash/Desktop/packaged joystick/ip_repo/packaged_joystick_1.0'.
+INFO: [IP_Flow 19-795] Syncing license key meta-data
+INFO: [IP_Flow 19-793] Syncing display name meta-data
+INFO: [IP_Flow 19-798] Syncing taxonomy meta-data
+ipx::edit_ip_in_project: Time (s): cpu = 00:00:07 ; elapsed = 00:00:11 . Memory (MB): peak = 915.598 ; gain = 0.000
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+current_project managed_ip_project
+close_project
+close_project: Time (s): cpu = 00:00:02 ; elapsed = 00:00:06 . Memory (MB): peak = 915.598 ; gain = 0.000
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue Mar 28 16:35:23 2017...

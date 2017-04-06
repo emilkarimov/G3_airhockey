@@ -1,0 +1,1358 @@
+17:44:49 INFO  : Launching XSDB server: xsdb.bat -interactive W:\ECE532\NexysVideo-master\Projects\hdmi\proj\hdmi.sdk\temp_xsdb_launch_script.tcl
+17:44:55 INFO  : XSDB server has started successfully.
+17:44:59 INFO  : Processing command line option -hwspec W:/ECE532/NexysVideo-master/Projects/hdmi/proj/hdmi.sdk/hdmi_wrapper.hdf.
+17:51:06 ERROR : The Hardware Project referenced by this BSP (videodemo_bsp) was not found in this workspace. As a result, this BSP will not build properly. To fix this error, please import the associated hardware project or recreate a new BSP targeting an existing hardware platform.
+18:01:14 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+18:01:16 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys Video 210276690173B" && level==0} -index 0' command is executed.
+18:01:22 INFO  : FPGA configured successfully with bitstream "W:/ECE532/NexysVideo-master/Projects/hdmi/proj/hdmi.sdk/hdmi_wrapper_hw_platform_0/download.bit"
+18:05:23 INFO  : Launching XSDB server: xsdb.bat -interactive W:\ECE532\NexysVideo-master\Projects\hdmi\proj\hdmi.sdk\temp_xsdb_launch_script.tcl
+18:05:24 INFO  : XSDB server has started successfully.
+18:05:24 INFO  : Processing command line option -hwspec W:/ECE532/NexysVideo-master/Projects/hdmi/proj/hdmi.sdk/hdmi_wrapper.hdf.
+18:05:24 INFO  : Checking for hwspec changes in the project hdmi_wrapper_hw_platform_0.
+18:06:20 INFO  : BSP Project P/videodemo_bsp has been successfully migrated.
+18:55:35 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+18:55:38 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys Video 210276690173B" && level==0} -index 0' command is executed.
+18:55:38 ERROR : bitstream is not compatible with the target
+18:57:41 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+18:57:41 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys Video 210276690173B" && level==0} -index 0' command is executed.
+18:57:41 ERROR : bitstream is not compatible with the target
+18:58:11 INFO  : Launching XSDB server: xsdb.bat -interactive W:\ECE532\NexysVideo-master\Projects\hdmi\proj\hdmi.sdk\temp_xsdb_launch_script.tcl
+18:58:12 INFO  : XSDB server has started successfully.
+18:58:12 INFO  : Processing command line option -hwspec W:/ECE532/NexysVideo-master/Projects/hdmi/proj/hdmi.sdk/hdmi_wrapper.hdf.
+13:21:28 INFO  : Launching XSDB server: xsdb.bat -interactive W:\ECE532\NexysVideo-master\Projects\hdmi\proj\hdmi.sdk\temp_xsdb_launch_script.tcl
+13:21:32 INFO  : XSDB server has started successfully.
+13:21:36 INFO  : Processing command line option -hwspec W:/ECE532/NexysVideo-master/Projects/hdmi/proj/hdmi.sdk/hdmi_wrapper.hdf.
+13:21:36 INFO  : Checking for hwspec changes in the project hdmi_wrapper_hw_platform_0.
+13:39:54 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:40:36 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:40:36 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys Video 210276690173B" && level==0} -index 0' command is executed.
+13:40:36 ERROR : bitstream is not compatible with the target
+14:05:18 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:05:18 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys Video 210276690173B" && level==0} -index 0' command is executed.
+14:05:18 ERROR : bitstream is not compatible with the target
+14:09:27 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1486667237584,  Project:1486593812316
+14:09:27 INFO  : Project hdmi_wrapper_hw_platform_0's source hardware specification located at W:/ECE532/NexysVideo-master/Projects/hdmi/proj/hdmi.sdk/hdmi_wrapper.hdf is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated.
+14:09:53 INFO  : Copied contents of W:/ECE532/NexysVideo-master/Projects/hdmi/proj/hdmi.sdk/hdmi_wrapper.hdf into \hdmi_wrapper_hw_platform_0\system.hdf.
+14:09:54 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+14:09:54 INFO  : Clearing existing target manager status.
+14:09:55 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+14:09:55 WARN  : Linker script will not be updated automatically. Users need to update it manually.
+14:10:01 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+14:10:12 INFO  : Launching XSDB server: xsdb.bat -interactive W:\ECE532\NexysVideo-master\Projects\hdmi\proj\hdmi.sdk\temp_xsdb_launch_script.tcl
+14:10:13 INFO  : XSDB server has started successfully.
+14:10:13 INFO  : Processing command line option -hwspec W:/ECE532/NexysVideo-master/Projects/hdmi/proj/hdmi.sdk/hdmi_wrapper.hdf.
+14:10:13 INFO  : Checking for hwspec changes in the project hdmi_wrapper_hw_platform_0.
+14:10:48 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:12:27 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:13:55 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:13:55 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys Video 210276690173B" && level==0} -index 0' command is executed.
+14:14:01 INFO  : FPGA configured successfully with bitstream "W:/ECE532/NexysVideo-master/Projects/hdmi/proj/hdmi.sdk/hdmi_wrapper_hw_platform_0/download.bit"
+14:15:35 INFO  : Processor reset is completed for microblaze_0
+14:16:46 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+14:16:48 INFO  : Processor reset is completed for microblaze_0
+14:20:01 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+14:20:02 INFO  : Processor reset is completed for microblaze_0
+14:23:40 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+14:23:41 INFO  : Processor reset is completed for microblaze_0
+14:23:57 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+14:23:59 INFO  : Processor reset is completed for microblaze_0
+14:24:39 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+14:24:40 INFO  : Processor reset is completed for microblaze_0
+14:27:49 INFO  : Processor reset is completed for microblaze_0
+14:28:56 INFO  : Processor reset is completed for microblaze_0
+14:35:45 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+14:35:46 INFO  : Processor reset is completed for microblaze_0
+14:36:17 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+14:36:19 INFO  : Processor reset is completed for microblaze_0
+14:41:07 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+14:41:08 INFO  : Processor reset is completed for microblaze_0
+14:43:28 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+14:43:30 INFO  : Processor reset is completed for microblaze_0
+14:46:59 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:46:59 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys Video 210276690173B" && level==0} -index 0' command is executed.
+14:46:59 ERROR : bitstream is not compatible with the target
+14:48:28 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+14:48:29 INFO  : Processor reset is completed for microblaze_0
+14:50:31 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+14:50:32 INFO  : Processor reset is completed for microblaze_0
+15:15:30 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:15:31 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys Video 210276690173B" && level==0} -index 0' command is executed.
+15:15:31 ERROR : bitstream is not compatible with the target
+15:19:34 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:19:35 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys Video 210276690173B" && level==0} -index 0' command is executed.
+15:19:35 ERROR : bitstream is not compatible with the target
+16:08:13 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:08:13 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys Video 210276690173B" && level==0} -index 0' command is executed.
+16:08:19 INFO  : FPGA configured successfully with bitstream "W:/ECE532/NexysVideo-master/Projects/hdmi/proj/hdmi.sdk/hdmi_wrapper_hw_platform_0/download.bit"
+16:12:54 INFO  : Processor reset is completed for microblaze_0
+16:26:12 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+18:11:55 INFO  : Launching XSDB server: xsdb.bat -interactive E:\Downloads\NexysVideo-master-20170209T214948Z\NexysVideo-master\Projects\hdmi\proj\hdmi.sdk\temp_xsdb_launch_script.tcl
+18:11:59 INFO  : XSDB server has started successfully.
+18:12:01 INFO  : Processing command line option -hwspec E:/Downloads/NexysVideo-master-20170209T214948Z/NexysVideo-master/Projects/hdmi/proj/hdmi.sdk/hdmi_wrapper.hdf.
+18:15:27 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+18:15:27 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys Video 210276689677B" && level==0} -index 0' command is executed.
+18:15:33 INFO  : FPGA configured successfully with bitstream "E:/Downloads/NexysVideo-master-20170209T214948Z/NexysVideo-master/Projects/hdmi/proj/hdmi.sdk/hdmi_wrapper_hw_platform_0/download.bit"
+18:25:27 INFO  : Launching XSDB server: xsdb.bat -interactive E:\Downloads\NexysVideo-master-20170209T214948Z\NexysVideo-master\Projects\hdmi\proj\hdmi.sdk\temp_xsdb_launch_script.tcl
+18:25:28 INFO  : XSDB server has started successfully.
+18:25:31 INFO  : Processing command line option -hwspec E:/Downloads/NexysVideo-master-20170209T214948Z/NexysVideo-master/Projects/hdmi/proj/hdmi.sdk/hdmi_wrapper.hdf.
+18:25:31 INFO  : Checking for hwspec changes in the project hdmi_wrapper_hw_platform_0.
+18:34:04 INFO  : Launching XSDB server: xsdb.bat -interactive E:\Downloads\NexysVideo-master-20170209T214948Z\NexysVideo-master\Projects\hdmi\proj\hdmi.sdk\temp_xsdb_launch_script.tcl
+18:34:05 INFO  : XSDB server has started successfully.
+18:34:05 INFO  : Processing command line option -hwspec E:/Downloads/NexysVideo-master-20170209T214948Z/NexysVideo-master/Projects/hdmi/proj/hdmi.sdk/hdmi_wrapper.hdf.
+18:34:05 INFO  : Checking for hwspec changes in the project hdmi_wrapper_hw_platform_0.
+18:34:28 INFO  : Launching XSDB server: xsdb.bat -interactive E:\Downloads\NexysVideo-master-20170209T214948Z\NexysVideo-master\Projects\hdmi\proj\hdmi.sdk\temp_xsdb_launch_script.tcl
+18:34:29 INFO  : XSDB server has started successfully.
+18:34:30 INFO  : Processing command line option -hwspec E:/Downloads/NexysVideo-master-20170209T214948Z/NexysVideo-master/Projects/hdmi/proj/hdmi.sdk/hdmi_wrapper.hdf.
+18:36:38 ERROR : The Hardware Project referenced by this BSP (videodemo_bsp) was not found in this workspace. As a result, this BSP will not build properly. To fix this error, please import the associated hardware project or recreate a new BSP targeting an existing hardware platform.
+18:39:34 INFO  : Launching XSDB server: xsdb.bat -interactive E:\Downloads\NexysVideo-master-20170209T214948Z\NexysVideo-master\Projects\hdmi\proj\hdmi.sdk\temp_xsdb_launch_script.tcl
+18:39:35 INFO  : XSDB server has started successfully.
+18:39:37 INFO  : Processing command line option -hwspec E:/Downloads/NexysVideo-master-20170209T214948Z/NexysVideo-master/Projects/hdmi/proj/hdmi.sdk/hdmi_wrapper.hdf.
+18:39:37 INFO  : Checking for hwspec changes in the project hdmi_wrapper_hw_platform_0.
+18:40:49 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+18:40:49 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys Video 210276689677B" && level==0} -index 0' command is executed.
+18:40:55 INFO  : FPGA configured successfully with bitstream "E:/Downloads/NexysVideo-master-20170209T214948Z/NexysVideo-master/Projects/hdmi/proj/hdmi.sdk/hdmi_wrapper_hw_platform_0/download.bit"
+18:43:05 ERROR : Unexpected error occurred during generating bsp sources
+java.lang.reflect.InvocationTargetException
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:420)
+	at org.eclipse.jface.dialogs.ProgressMonitorDialog.run(ProgressMonitorDialog.java:500)
+	at org.eclipse.ui.internal.progress.ProgressMonitorJobsDialog.run(ProgressMonitorJobsDialog.java:284)
+	at org.eclipse.ui.internal.progress.ProgressManager$3.run(ProgressManager.java:997)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.ui.internal.progress.ProgressManager.busyCursorWhile(ProgressManager.java:1032)
+	at org.eclipse.ui.internal.progress.ProgressManager.busyCursorWhile(ProgressManager.java:1007)
+	at org.eclipse.ui.internal.progress.ProgressManager.run(ProgressManager.java:1208)
+	at com.xilinx.sdk.sw.ui.handlers.RegenBspSourcesHandler.execute(RegenBspSourcesHandler.java:124)
+	at com.xilinx.sdk.sw.ui.handlers.RegenBspSourcesHandler.execute(RegenBspSourcesHandler.java:78)
+	at org.eclipse.ui.internal.handlers.HandlerProxy.execute(HandlerProxy.java:295)
+	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:90)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:56)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invokeUsingClass(InjectorImpl.java:252)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invoke(InjectorImpl.java:234)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.invoke(ContextInjectionFactory.java:132)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceHandler.execute(HandlerServiceHandler.java:152)
+	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:493)
+	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:486)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceImpl.executeHandler(HandlerServiceImpl.java:210)
+	at org.eclipse.e4.ui.workbench.renderers.swt.HandledContributionItem.executeItem(HandledContributionItem.java:799)
+	at org.eclipse.e4.ui.workbench.renderers.swt.HandledContributionItem.handleWidgetSelection(HandledContributionItem.java:675)
+	at org.eclipse.e4.ui.workbench.renderers.swt.HandledContributionItem.access$7(HandledContributionItem.java:659)
+	at org.eclipse.e4.ui.workbench.renderers.swt.HandledContributionItem$4.handleEvent(HandledContributionItem.java:592)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4362)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1113)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4180)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3769)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:1127)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:337)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1018)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:654)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:337)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:598)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:139)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:380)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:235)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:669)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:608)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1515)
+Caused by: java.lang.NullPointerException
+	at com.xilinx.sdk.sw.ui.handlers.RegenBspSourcesHandler$1.run(RegenBspSourcesHandler.java:135)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+18:48:40 INFO  : Launching XSDB server: xsdb.bat -interactive E:\Downloads\NexysVideo-master-20170209T214948Z\NexysVideo-master\Projects\hdmi\proj\hdmi.sdk\temp_xsdb_launch_script.tcl
+18:48:41 INFO  : XSDB server has started successfully.
+18:48:41 INFO  : Processing command line option -hwspec E:/Downloads/NexysVideo-master-20170209T214948Z/NexysVideo-master/Projects/hdmi/proj/hdmi.sdk/hdmi_wrapper.hdf.
+18:48:41 INFO  : Checking for hwspec changes in the project hdmi_wrapper_hw_platform_0.
+18:51:58 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+18:51:58 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys Video 210276689677B" && level==0} -index 0' command is executed.
+18:52:04 INFO  : FPGA configured successfully with bitstream "E:/Downloads/NexysVideo-master-20170209T214948Z/NexysVideo-master/Projects/hdmi/proj/hdmi.sdk/hdmi_wrapper_hw_platform_0/download.bit"
+18:58:26 ERROR : (XSDB Server)ERROR: [Hsi 55-1545] Problem running tcl command ::sw_xilsecure_v1_1::secure_drc : ERROR: XilSecure library is supported only for CortexA53 and CortexR5 processors.
+    while executing
+"error "ERROR: XilSecure library is supported only for CortexA53 and CortexR5 processors.""
+    (procedure "::sw_xilsecure_v1_1::secure_drc" line 9)
+    invoked from within
+"::sw_xilsecure_v1_1::secure_drc xilsecure"
+
+18:58:26 ERROR : (XSDB Server)ERROR: [Hsi 55-1440] Error(s) while running DRCs.
+
+18:58:26 ERROR : (XSDB Server)ERROR: [Hsi 55-1450] Error: running generate_bsp.
+
+18:58:26 ERROR : Error generating bsp sources: Failed in generating sources
+18:58:26 ERROR : Failed to generate sources for BSP project standalone_bsp_0
+org.eclipse.core.runtime.CoreException: Internal error occurred while generating bsp sources. Please check the SDK Log view for further details.
+	at com.xilinx.sdk.sw.ui.handlers.RegenBspSourcesHandler.internalGenerateBsp(RegenBspSourcesHandler.java:178)
+	at com.xilinx.sdk.sw.ui.handlers.RegenBspSourcesHandler.access$2(RegenBspSourcesHandler.java:163)
+	at com.xilinx.sdk.sw.ui.handlers.RegenBspSourcesHandler$1$1.run(RegenBspSourcesHandler.java:131)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2241)
+	at com.xilinx.sdk.sw.ui.handlers.RegenBspSourcesHandler$1.run(RegenBspSourcesHandler.java:135)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+19:01:03 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+19:01:03 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys Video 210276689677B" && level==0} -index 0' command is executed.
+19:01:09 INFO  : FPGA configured successfully with bitstream "E:/Downloads/NexysVideo-master-20170209T214948Z/NexysVideo-master/Projects/hdmi/proj/hdmi.sdk/hdmi_wrapper_hw_platform_0/download.bit"
+19:04:28 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+19:04:28 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys Video 210276689677B" && level==0} -index 0' command is executed.
+19:04:34 INFO  : FPGA configured successfully with bitstream "E:/Downloads/NexysVideo-master-20170209T214948Z/NexysVideo-master/Projects/hdmi/proj/hdmi.sdk/hdmi_wrapper_hw_platform_0/download.bit"
+19:24:57 INFO  : Launching XSDB server: xsdb.bat -interactive E:\Downloads\NexysVideo-master-20170209T214948Z\NexysVideo-master\Projects\hdmi\proj\hdmi.sdk\temp_xsdb_launch_script.tcl
+19:24:58 INFO  : XSDB server has started successfully.
+19:24:59 INFO  : Processing command line option -hwspec E:/Downloads/NexysVideo-master-20170209T214948Z/NexysVideo-master/Projects/hdmi/proj/hdmi.sdk/hdmi_wrapper.hdf.
+19:24:59 INFO  : Checking for hwspec changes in the project hdmi_wrapper_hw_platform_0.
+19:32:00 INFO  : Launching XSDB server: xsdb.bat -interactive E:\Downloads\NexysVideo-master-20170209T214948Z\NexysVideo-master\Projects\hdmi\proj\hdmi.sdk\temp_xsdb_launch_script.tcl
+19:32:01 INFO  : XSDB server has started successfully.
+19:32:01 INFO  : Processing command line option -hwspec E:/Downloads/NexysVideo-master-20170209T214948Z/NexysVideo-master/Projects/hdmi/proj/hdmi.sdk/hdmi_wrapper.hdf.
+19:32:01 INFO  : Checking for hwspec changes in the project hdmi_wrapper_hw_platform_0.
+19:42:31 INFO  : Launching XSDB server: xsdb.bat -interactive E:\Downloads\NexysVideo-master-20170209T214948Z\NexysVideo-master\Projects\hdmi\proj\hdmi.sdk\temp_xsdb_launch_script.tcl
+19:42:32 INFO  : XSDB server has started successfully.
+19:42:33 INFO  : Processing command line option -hwspec E:/Downloads/NexysVideo-master-20170209T214948Z/NexysVideo-master/Projects/hdmi/proj/hdmi.sdk/hdmi_wrapper.hdf.
+19:42:33 INFO  : Checking for hwspec changes in the project hdmi_wrapper_hw_platform_0.
+19:49:23 INFO  : Launching XSDB server: xsdb.bat -interactive E:\Downloads\NexysVideo-master-20170209T214948Z\NexysVideo-master\Projects\hdmi\proj\hdmi.sdk\temp_xsdb_launch_script.tcl
+19:49:24 INFO  : XSDB server has started successfully.
+19:49:25 INFO  : Processing command line option -hwspec E:/Downloads/NexysVideo-master-20170209T214948Z/NexysVideo-master/Projects/hdmi/proj/hdmi.sdk/hdmi_wrapper.hdf.
+19:49:25 INFO  : Checking for hwspec changes in the project hdmi_wrapper_hw_platform_0.
+20:04:48 INFO  : Launching XSDB server: xsdb.bat -interactive E:\Downloads\NexysVideo-master-20170209T214948Z\NexysVideo-master\Projects\hdmi\proj\hdmi.sdk\temp_xsdb_launch_script.tcl
+20:04:50 INFO  : XSDB server has started successfully.
+20:04:51 INFO  : Processing command line option -hwspec E:/Downloads/NexysVideo-master-20170209T214948Z/NexysVideo-master/Projects/hdmi/proj/hdmi.sdk/hdmi_wrapper.hdf.
+20:04:51 INFO  : Checking for hwspec changes in the project hdmi_wrapper_hw_platform_0.
+20:08:04 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+20:08:04 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys Video 210276689677B" && level==0} -index 0' command is executed.
+20:08:10 INFO  : FPGA configured successfully with bitstream "E:/Downloads/NexysVideo-master-20170209T214948Z/NexysVideo-master/Projects/hdmi/proj/hdmi.sdk/hdmi_wrapper_hw_platform_0/download.bit"
+20:12:31 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+20:12:31 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys Video 210276689677B" && level==0} -index 0' command is executed.
+20:12:37 INFO  : FPGA configured successfully with bitstream "E:/Downloads/NexysVideo-master-20170209T214948Z/NexysVideo-master/Projects/hdmi/proj/hdmi.sdk/hdmi_wrapper_hw_platform_0/download.bit"
+20:13:02 INFO  : Processor reset is completed for microblaze_0
+20:14:21 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+20:14:22 INFO  : Processor reset is completed for microblaze_0
+20:15:40 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+20:15:41 INFO  : Processor reset is completed for microblaze_0
+20:18:29 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+20:19:02 INFO  : Launching XSDB server: xsdb.bat -interactive E:\Downloads\NexysVideo-master-20170209T214948Z\NexysVideo-master\Projects\hdmi\proj\hdmi.sdk\temp_xsdb_launch_script.tcl
+20:19:04 INFO  : XSDB server has started successfully.
+20:19:04 INFO  : Processing command line option -hwspec E:/Downloads/NexysVideo-master-20170209T214948Z/NexysVideo-master/Projects/hdmi/proj/hdmi.sdk/hdmi_wrapper.hdf.
+20:19:04 INFO  : Checking for hwspec changes in the project hdmi_wrapper_hw_platform_0.
+20:19:44 INFO  : Processor reset is completed for microblaze_0
+20:20:44 INFO  : Processor reset is completed for microblaze_0
+21:12:28 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+21:12:31 INFO  : Processor reset is completed for microblaze_0
+21:31:25 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+13:39:55 INFO  : Launching XSDB server: xsdb.bat -interactive C:\Xilinx\Projects\NexysVideo-master\Projects\hdmi\proj\hdmi.sdk\temp_xsdb_launch_script.tcl
+13:39:57 INFO  : XSDB server has started successfully.
+13:39:58 INFO  : Processing command line option -hwspec C:/Xilinx/Projects/NexysVideo-master/Projects/hdmi/proj/hdmi.sdk/hdmi_wrapper.hdf.
+13:40:47 ERROR : The Hardware Project referenced by this BSP (videodemo_bsp) was not found in this workspace. As a result, this BSP will not build properly. To fix this error, please import the associated hardware project or recreate a new BSP targeting an existing hardware platform.
+13:41:48 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:41:49 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys Video 210276689677B" && level==0} -index 0' command is executed.
+13:41:55 INFO  : FPGA configured successfully with bitstream "C:/Xilinx/Projects/NexysVideo-master/Projects/hdmi/sdk/hdmi_wrapper_hw_platform_0/download.bit"
+13:42:14 INFO  : Processor reset is completed for microblaze_0
+13:54:33 INFO  : Processor reset is completed for microblaze_0
+14:42:14 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+19:26:54 INFO  : Launching XSDB server: xsdb.bat -interactive C:\Xilinx\Projects\NexysVideo-master_v2\Projects\hdmi\proj\hdmi.sdk\temp_xsdb_launch_script.tcl
+19:27:01 INFO  : XSDB server has started successfully.
+19:27:05 INFO  : Processing command line option -hwspec C:/Xilinx/Projects/NexysVideo-master_v2/Projects/hdmi/proj/hdmi.sdk/hdmi_wrapper.hdf.
+19:27:07 ERROR : Error occurred while creating hardware platform hdmi_wrapper_hw_platform_1 from sysdef
+org.eclipse.core.internal.resources.ResourceException: Resource '/hdmi_wrapper_hw_platform_1/system.hdf' already exists.
+	at org.eclipse.core.internal.resources.Resource.checkDoesNotExist(Resource.java:313)
+	at org.eclipse.core.internal.resources.Resource.checkDoesNotExist(Resource.java:300)
+	at org.eclipse.core.internal.resources.File.create(File.java:106)
+	at com.xilinx.sdk.hw.internal.HwProjectCreator.createHwProjectFromZip(HwProjectCreator.java:103)
+	at com.xilinx.sdk.hw.HwProjectUtil.internalCreate(HwProjectUtil.java:189)
+	at com.xilinx.sdk.hw.HwProjectUtil.makeNewHardwareProject(HwProjectUtil.java:138)
+	at com.xilinx.sdk.hw.HwProjectUtil.makeNewHardwareProject(HwProjectUtil.java:125)
+	at com.xilinx.sdk.hw.HwProjectUtil.makeNewHardwareProject(HwProjectUtil.java:100)
+	at com.xilinx.sdk.startup.InitSDK.processHwSpecArgumentTask(InitSDK.java:436)
+	at com.xilinx.sdk.startup.InitSDK.access$7(InitSDK.java:418)
+	at com.xilinx.sdk.startup.InitSDK$12.run(InitSDK.java:369)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+19:27:07 ERROR : Unable to create Hardware Specification Project with specification file: C:/Xilinx/Projects/NexysVideo-master_v2/Projects/hdmi/proj/hdmi.sdk/hdmi_wrapper.hdf
+19:28:16 INFO  : Processor reset is completed for microblaze_0
+19:52:12 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+19:52:16 INFO  : Processor reset is completed for microblaze_0
+19:55:43 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+19:55:46 INFO  : Processor reset is completed for microblaze_0
+21:09:08 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+14:15:00 INFO  : Launching XSDB server: xsdb.bat -interactive C:\Xilinx\Projects\NexysVideo-master_v2\Projects\hdmi\proj\hdmi.sdk\temp_xsdb_launch_script.tcl
+14:15:06 INFO  : XSDB server has started successfully.
+14:15:13 INFO  : Processing command line option -hwspec C:/Xilinx/Projects/NexysVideo-master_v2/Projects/hdmi/proj/hdmi.sdk/hdmi_wrapper.hdf.
+14:16:28 INFO  : Processor reset is completed for microblaze_0
+14:56:31 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+13:28:43 INFO  : Launching XSDB server: xsdb.bat -interactive C:\Xilinx\Projects\NexysVideo-master_v3\Projects\hdmi\proj\hdmi.sdk\temp_xsdb_launch_script.tcl
+13:28:49 INFO  : XSDB server has started successfully.
+13:28:59 INFO  : Processing command line option -hwspec C:/Xilinx/Projects/NexysVideo-master_v3/Projects/hdmi/proj/hdmi.sdk/hdmi_wrapper.hdf.
+13:32:40 INFO  : Launching XSDB server: xsdb.bat -interactive C:\Xilinx\Projects\NexysVideo-master_v3\Projects\hdmi\proj\hdmi.sdk\temp_xsdb_launch_script.tcl
+13:32:42 INFO  : XSDB server has started successfully.
+13:32:46 INFO  : Processing command line option -hwspec C:/Xilinx/Projects/NexysVideo-master_v3/Projects/hdmi/proj/hdmi.sdk/hdmi_wrapper.hdf.
+13:32:46 INFO  : Checking for hwspec changes in the project hdmi_wrapper_hw_platform_3.
+13:32:46 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1490513485727,  Project:1489615673578
+13:32:46 INFO  : The hardware specification for project 'hdmi_wrapper_hw_platform_3' is different from C:/Xilinx/Projects/NexysVideo-master_v3/Projects/hdmi/proj/hdmi.sdk/hdmi_wrapper.hdf.
+13:32:46 INFO  : Copied contents of C:/Xilinx/Projects/NexysVideo-master_v3/Projects/hdmi/proj/hdmi.sdk/hdmi_wrapper.hdf into \hdmi_wrapper_hw_platform_3\system.hdf.
+13:32:48 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+13:32:49 INFO  : Clearing existing target manager status.
+13:32:52 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+13:32:52 WARN  : Linker script will not be updated automatically. Users need to update it manually.
+14:06:24 ERROR : Checking FPGA configuration failed..Connection to Board Failed
+
+
+    Unknown Error Occured
+    Cable is not powered-on
+
+14:06:24 ERROR : Unexpected error while launching program.
+com.xilinx.sdk.targetmanager.TMException: Connection to Board Failed
+
+
+    Unknown Error Occured
+    Cable is not powered-on
+
+	at com.xilinx.sdk.targetmanager.internal.TM.isFPGAConfigured(TM.java:374)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.isFpgaConfigured(XilinxAppLaunchConfigurationDelegate.java:409)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:303)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+14:07:23 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:07:24 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys Video 210276689677B" && level==0} -index 0' command is executed.
+14:07:30 INFO  : FPGA configured successfully with bitstream "C:/Xilinx/Projects/NexysVideo-master_v3/Projects/hdmi/proj/hdmi.sdk/hdmi_wrapper_hw_platform_3/download.bit"
+14:07:36 ERROR : Checking FPGA configuration failed..Connection to Board Failed
+
+
+    Unknown Error Occured
+    Cable is not powered-on
+
+14:07:36 ERROR : Unexpected error while launching program.
+com.xilinx.sdk.targetmanager.TMException: Connection to Board Failed
+
+
+    Unknown Error Occured
+    Cable is not powered-on
+
+	at com.xilinx.sdk.targetmanager.internal.TM.isFPGAConfigured(TM.java:374)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.isFpgaConfigured(XilinxAppLaunchConfigurationDelegate.java:409)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:303)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+14:08:26 ERROR : Checking FPGA configuration failed..Connection to Board Failed
+
+
+    Unknown Error Occured
+    Cable is not powered-on
+
+14:08:26 ERROR : Unexpected error while launching program.
+com.xilinx.sdk.targetmanager.TMException: Connection to Board Failed
+
+
+    Unknown Error Occured
+    Cable is not powered-on
+
+	at com.xilinx.sdk.targetmanager.internal.TM.isFPGAConfigured(TM.java:374)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.isFpgaConfigured(XilinxAppLaunchConfigurationDelegate.java:409)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:303)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+14:09:07 ERROR : Checking FPGA configuration failed..Connection to Board Failed
+
+
+    Unknown Error Occured
+    Cable is not powered-on
+
+14:09:07 ERROR : Unexpected error while launching program.
+com.xilinx.sdk.targetmanager.TMException: Connection to Board Failed
+
+
+    Unknown Error Occured
+    Cable is not powered-on
+
+	at com.xilinx.sdk.targetmanager.internal.TM.isFPGAConfigured(TM.java:374)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.isFpgaConfigured(XilinxAppLaunchConfigurationDelegate.java:409)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:303)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+14:10:08 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:10:08 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys Video 210276689677B" && level==0} -index 0' command is executed.
+14:10:13 INFO  : FPGA configured successfully with bitstream "C:/Xilinx/Projects/NexysVideo-master_v3/Projects/hdmi/proj/hdmi.sdk/hdmi_wrapper_hw_platform_3/download.bit"
+14:10:21 ERROR : Checking FPGA configuration failed..Connection to Board Failed
+
+
+    Unknown Error Occured
+    Cable is not powered-on
+
+14:10:21 ERROR : Unexpected error while launching program.
+com.xilinx.sdk.targetmanager.TMException: Connection to Board Failed
+
+
+    Unknown Error Occured
+    Cable is not powered-on
+
+	at com.xilinx.sdk.targetmanager.internal.TM.isFPGAConfigured(TM.java:374)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.isFpgaConfigured(XilinxAppLaunchConfigurationDelegate.java:409)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:303)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+14:11:23 ERROR : Checking FPGA configuration failed..Connection to Board Failed
+
+
+    Unknown Error Occured
+    Cable is not powered-on
+
+14:11:23 ERROR : Unexpected error while launching program.
+com.xilinx.sdk.targetmanager.TMException: Connection to Board Failed
+
+
+    Unknown Error Occured
+    Cable is not powered-on
+
+	at com.xilinx.sdk.targetmanager.internal.TM.isFPGAConfigured(TM.java:374)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.isFpgaConfigured(XilinxAppLaunchConfigurationDelegate.java:409)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:303)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+14:11:47 ERROR : Checking FPGA configuration failed..Connection to Board Failed
+
+
+    Unknown Error Occured
+    Cable is not powered-on
+
+14:11:47 ERROR : Unexpected error while launching program.
+com.xilinx.sdk.targetmanager.TMException: Connection to Board Failed
+
+
+    Unknown Error Occured
+    Cable is not powered-on
+
+	at com.xilinx.sdk.targetmanager.internal.TM.isFPGAConfigured(TM.java:374)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.isFpgaConfigured(XilinxAppLaunchConfigurationDelegate.java:409)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:303)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+14:12:27 ERROR : Checking FPGA configuration failed..Connection to Board Failed
+
+
+    Unknown Error Occured
+    Cable is not powered-on
+
+14:12:27 ERROR : Unexpected error while launching program.
+com.xilinx.sdk.targetmanager.TMException: Connection to Board Failed
+
+
+    Unknown Error Occured
+    Cable is not powered-on
+
+	at com.xilinx.sdk.targetmanager.internal.TM.isFPGAConfigured(TM.java:374)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.isFpgaConfigured(XilinxAppLaunchConfigurationDelegate.java:409)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:303)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+14:13:20 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+14:15:29 INFO  : Launching XSDB server: xsdb.bat -interactive C:\Xilinx\Projects\NexysVideo-master_v3\Projects\hdmi\proj\hdmi.sdk\temp_xsdb_launch_script.tcl
+14:15:33 INFO  : XSDB server has started successfully.
+14:15:34 INFO  : Processing command line option -hwspec C:/Xilinx/Projects/NexysVideo-master_v3/Projects/hdmi/proj/hdmi.sdk/hdmi_wrapper.hdf.
+14:15:34 INFO  : Checking for hwspec changes in the project hdmi_wrapper_hw_platform_3.
+14:15:48 INFO  : Processor reset is completed for microblaze_0
+14:22:34 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+14:22:36 INFO  : Processor reset is completed for microblaze_0
+14:37:01 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+14:37:03 INFO  : Processor reset is completed for microblaze_0
+14:38:47 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+14:38:49 INFO  : Processor reset is completed for microblaze_0
+14:41:53 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+14:41:56 INFO  : Processor reset is completed for microblaze_0
+14:45:15 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:45:15 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys Video 210276689677B" && level==0} -index 0' command is executed.
+14:45:21 INFO  : FPGA configured successfully with bitstream "C:/Xilinx/Projects/NexysVideo-master_v3/Projects/hdmi/proj/hdmi.sdk/hdmi_wrapper_hw_platform_3/download.bit"
+14:45:36 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+14:45:38 INFO  : Processor reset is completed for microblaze_0
+14:46:48 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+14:46:50 INFO  : Processor reset is completed for microblaze_0
+14:50:14 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+14:50:17 INFO  : Processor reset is completed for microblaze_0
+14:52:17 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:52:17 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys Video 210276689677B" && level==0} -index 0' command is executed.
+14:52:24 INFO  : FPGA configured successfully with bitstream "C:/Xilinx/Projects/NexysVideo-master_v3/Projects/hdmi/proj/hdmi.sdk/hdmi_wrapper_hw_platform_3/download.bit"
+14:54:58 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+14:55:03 INFO  : Processor reset is completed for microblaze_0
+16:54:48 INFO  : Processor reset is completed for microblaze_0
+16:57:47 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+16:57:50 INFO  : Processor reset is completed for microblaze_0
+17:08:10 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+17:08:13 INFO  : Processor reset is completed for microblaze_0
+17:10:06 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+17:10:09 INFO  : Processor reset is completed for microblaze_0
+17:11:36 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+17:11:39 INFO  : Processor reset is completed for microblaze_0
+17:15:44 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+17:15:46 INFO  : Processor reset is completed for microblaze_0
+17:26:43 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+17:26:44 INFO  : Processor reset is completed for microblaze_0
+17:32:22 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+17:32:25 INFO  : Processor reset is completed for microblaze_0
+17:34:23 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+21:09:29 INFO  : Launching XSDB server: xsdb.bat -interactive C:\Xilinx\Projects\NexysVideo-master_v3\Projects\hdmi\proj\hdmi.sdk\temp_xsdb_launch_script.tcl
+21:09:37 INFO  : XSDB server has started successfully.
+21:09:39 INFO  : Processing command line option -hwspec C:/Xilinx/Projects/NexysVideo-master_v3/Projects/hdmi/proj/hdmi.sdk/hdmi_wrapper.hdf.
+21:09:39 INFO  : Checking for hwspec changes in the project hdmi_wrapper_hw_platform_3.
+21:11:57 INFO  : Processor reset is completed for microblaze_0
+21:13:45 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+21:14:41 INFO  : Processor reset is completed for microblaze_0
+21:17:54 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+21:17:58 INFO  : Processor reset is completed for microblaze_0
+21:19:01 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+23:28:38 INFO  : Launching XSDB server: xsdb.bat -interactive C:\Xilinx\Projects\NexysVideo-master_v3\Projects\hdmi\proj\hdmi.sdk\temp_xsdb_launch_script.tcl
+23:28:43 INFO  : XSDB server has started successfully.
+23:28:43 INFO  : Processing command line option -hwspec C:/Xilinx/Projects/NexysVideo-master_v3/Projects/hdmi/proj/hdmi.sdk/hdmi_wrapper.hdf.
+23:28:43 INFO  : Checking for hwspec changes in the project hdmi_wrapper_hw_platform_3.
+18:17:09 INFO  : Launching XSDB server: xsdb.bat -interactive C:\Xilinx\Projects\NexysVideo-master_v3\Projects\hdmi\proj\hdmi.sdk\temp_xsdb_launch_script.tcl
+18:17:16 INFO  : XSDB server has started successfully.
+18:17:20 INFO  : Processing command line option -hwspec C:/Xilinx/Projects/NexysVideo-master_v3/Projects/hdmi/proj/hdmi.sdk/hdmi_wrapper.hdf.
+18:17:20 INFO  : Checking for hwspec changes in the project hdmi_wrapper_hw_platform_3.
+18:17:49 INFO  : Processor reset is completed for microblaze_0
+18:25:41 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+18:25:48 INFO  : Processor reset is completed for microblaze_0
+18:33:36 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+18:33:38 INFO  : Processor reset is completed for microblaze_0
+18:37:42 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+18:37:45 INFO  : Processor reset is completed for microblaze_0
+18:39:31 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+18:39:33 INFO  : Processor reset is completed for microblaze_0
+18:41:21 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+18:41:26 INFO  : Processor reset is completed for microblaze_0
+19:06:42 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1490652816009,  Project:1490513485727
+19:06:42 INFO  : Project hdmi_wrapper_hw_platform_3's source hardware specification located at C:/Xilinx/Projects/NexysVideo-master_v3/Projects/hdmi/proj/hdmi.sdk/hdmi_wrapper.hdf is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated.
+19:06:48 INFO  : Copied contents of C:/Xilinx/Projects/NexysVideo-master_v3/Projects/hdmi/proj/hdmi.sdk/hdmi_wrapper.hdf into \hdmi_wrapper_hw_platform_3\system.hdf.
+19:06:49 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+19:06:49 INFO  : Clearing existing target manager status.
+19:06:49 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+19:06:49 WARN  : Linker script will not be updated automatically. Users need to update it manually.
+19:35:52 INFO  : Processor reset is completed for microblaze_0
+19:35:54 ERROR : Port COM7 is already in use.
+19:35:54 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: Cannot perform the Debug Command, Current Processor State is "Running"
+
+	at com.xilinx.sdk.targetmanager.internal.TM.downloadELF(TM.java:686)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.run(AppRunner.java:129)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:637)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:309)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+19:39:19 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+19:39:37 INFO  : Launching XSDB server: xsdb.bat -interactive C:\Xilinx\Projects\NexysVideo-master_v3\Projects\hdmi\proj\hdmi.sdk\temp_xsdb_launch_script.tcl
+19:39:42 INFO  : XSDB server has started successfully.
+19:39:42 INFO  : Processing command line option -hwspec C:/Xilinx/Projects/NexysVideo-master_v3/Projects/hdmi/proj/hdmi.sdk/hdmi_wrapper.hdf.
+19:39:42 INFO  : Checking for hwspec changes in the project hdmi_wrapper_hw_platform_3.
+19:40:00 INFO  : Processor reset is completed for microblaze_0
+20:45:27 INFO  : Processor reset is completed for microblaze_0
+20:51:48 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+20:51:52 INFO  : Processor reset is completed for microblaze_0
+21:06:31 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+21:07:26 INFO  : Launching XSDB server: xsdb.bat -interactive C:\Xilinx\Projects\NexysVideo-master_v3\Projects\hdmi\proj\hdmi.sdk\temp_xsdb_launch_script.tcl
+21:07:28 INFO  : XSDB server has started successfully.
+21:07:33 INFO  : Processing command line option -hwspec C:/Xilinx/Projects/NexysVideo-master_v3/Projects/hdmi/proj/hdmi.sdk/hdmi_wrapper.hdf.
+21:07:33 INFO  : Checking for hwspec changes in the project hdmi_wrapper_hw_platform_3.
+21:07:33 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1490661621300,  Project:1490652816009
+21:07:33 INFO  : The hardware specification for project 'hdmi_wrapper_hw_platform_3' is different from C:/Xilinx/Projects/NexysVideo-master_v3/Projects/hdmi/proj/hdmi.sdk/hdmi_wrapper.hdf.
+21:07:33 INFO  : Copied contents of C:/Xilinx/Projects/NexysVideo-master_v3/Projects/hdmi/proj/hdmi.sdk/hdmi_wrapper.hdf into \hdmi_wrapper_hw_platform_3\system.hdf.
+21:07:36 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+21:07:37 INFO  : Clearing existing target manager status.
+21:07:39 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+21:07:39 WARN  : Linker script will not be updated automatically. Users need to update it manually.
+21:23:51 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+21:23:52 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys Video 210276689677B" && level==0} -index 0' command is executed.
+21:23:58 INFO  : FPGA configured successfully with bitstream "C:/Xilinx/Projects/NexysVideo-master_v3/Projects/hdmi/proj/hdmi.sdk/hdmi_wrapper_hw_platform_3/download.bit"
+21:24:13 INFO  : Processor reset is completed for microblaze_0
+21:30:51 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+21:30:54 INFO  : Processor reset is completed for microblaze_0
+21:32:28 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+21:32:32 INFO  : Processor reset is completed for microblaze_0
+21:35:35 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+21:35:37 INFO  : Processor reset is completed for microblaze_0
+21:39:46 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+21:39:48 INFO  : Processor reset is completed for microblaze_0
+21:41:50 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+21:41:52 INFO  : Processor reset is completed for microblaze_0
+21:46:23 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+21:46:25 INFO  : Processor reset is completed for microblaze_0
+21:50:24 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+21:50:46 INFO  : Launching XSDB server: xsdb.bat -interactive C:\Xilinx\Projects\NexysVideo-master_v3\Projects\hdmi\proj\hdmi.sdk\temp_xsdb_launch_script.tcl
+21:50:50 INFO  : XSDB server has started successfully.
+21:50:51 INFO  : Processing command line option -hwspec C:/Xilinx/Projects/NexysVideo-master_v3/Projects/hdmi/proj/hdmi.sdk/hdmi_wrapper.hdf.
+21:50:51 INFO  : Checking for hwspec changes in the project hdmi_wrapper_hw_platform_3.
+02:13:15 INFO  : Launching XSDB server: xsdb.bat -interactive C:\Xilinx\Projects\image_proc\NexysVideo-master_v3\Projects\hdmi\proj\hdmi.sdk\temp_xsdb_launch_script.tcl
+02:13:22 INFO  : XSDB server has started successfully.
+02:13:22 INFO  : Processing command line option -hwspec C:/Xilinx/Projects/image_proc/NexysVideo-master_v3/Projects/hdmi/proj/hdmi.sdk/hdmi_wrapper.hdf.
+02:13:24 ERROR : Error occurred while creating hardware platform hdmi_wrapper_hw_platform_0 from sysdef
+org.eclipse.core.internal.resources.ResourceException: Resource '/hdmi_wrapper_hw_platform_0/system.hdf' already exists.
+	at org.eclipse.core.internal.resources.Resource.checkDoesNotExist(Resource.java:313)
+	at org.eclipse.core.internal.resources.Resource.checkDoesNotExist(Resource.java:300)
+	at org.eclipse.core.internal.resources.File.create(File.java:106)
+	at com.xilinx.sdk.hw.internal.HwProjectCreator.createHwProjectFromZip(HwProjectCreator.java:103)
+	at com.xilinx.sdk.hw.HwProjectUtil.internalCreate(HwProjectUtil.java:189)
+	at com.xilinx.sdk.hw.HwProjectUtil.makeNewHardwareProject(HwProjectUtil.java:138)
+	at com.xilinx.sdk.hw.HwProjectUtil.makeNewHardwareProject(HwProjectUtil.java:125)
+	at com.xilinx.sdk.hw.HwProjectUtil.makeNewHardwareProject(HwProjectUtil.java:100)
+	at com.xilinx.sdk.startup.InitSDK.processHwSpecArgumentTask(InitSDK.java:436)
+	at com.xilinx.sdk.startup.InitSDK.access$7(InitSDK.java:418)
+	at com.xilinx.sdk.startup.InitSDK$12.run(InitSDK.java:369)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+02:13:24 ERROR : Unable to create Hardware Specification Project with specification file: C:/Xilinx/Projects/image_proc/NexysVideo-master_v3/Projects/hdmi/proj/hdmi.sdk/hdmi_wrapper.hdf
+21:45:45 INFO  : Launching XSDB server: xsdb.bat -interactive C:\Xilinx\Projects\image_proc\NexysVideo-master_v3\Projects\hdmi\proj\hdmi.sdk\temp_xsdb_launch_script.tcl
+21:45:48 INFO  : XSDB server has started successfully.
+21:45:50 INFO  : Processing command line option -hwspec C:/Xilinx/Projects/image_proc/NexysVideo-master_v3/Projects/hdmi/proj/hdmi.sdk/hdmi_wrapper.hdf.
+21:52:31 INFO  : Processor reset is completed for microblaze_0
+21:54:42 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+21:54:44 INFO  : Processor reset is completed for microblaze_0
+22:48:24 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+22:48:27 INFO  : Processor reset is completed for microblaze_0
+22:49:01 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+22:49:02 INFO  : Processor reset is completed for microblaze_0
+22:50:08 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+22:50:09 INFO  : Processor reset is completed for microblaze_0
+22:51:40 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+22:51:49 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+22:51:51 INFO  : Processor reset is completed for microblaze_0
+22:55:26 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+23:03:01 INFO  : Launching XSDB server: xsdb.bat -interactive C:\Xilinx\Projects\image_proc\NexysVideo-master_v3\Projects\hdmi\proj\hdmi.sdk\temp_xsdb_launch_script.tcl
+23:03:03 INFO  : XSDB server has started successfully.
+23:03:05 INFO  : Processing command line option -hwspec C:/Xilinx/Projects/image_proc/NexysVideo-master_v3/Projects/hdmi/proj/hdmi.sdk/hdmi_wrapper.hdf.
+23:03:05 INFO  : Checking for hwspec changes in the project hdmi_wrapper_hw_platform_0.
+23:05:25 INFO  : Processor reset is completed for microblaze_0
+23:10:01 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+23:10:02 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys Video 210276689677B" && level==0} -index 0' command is executed.
+23:10:07 INFO  : FPGA configured successfully with bitstream "C:/Xilinx/Projects/image_proc/NexysVideo-master_v3/Projects/hdmi/proj/hdmi.sdk/hdmi_wrapper_hw_platform_0/download.bit"
+23:10:42 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+23:10:44 INFO  : Processor reset is completed for microblaze_0
+23:11:38 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+23:11:40 INFO  : Processor reset is completed for microblaze_0
+23:17:31 INFO  : Processor reset is completed for microblaze_0
+23:19:16 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+23:19:18 INFO  : Processor reset is completed for microblaze_0
+23:20:59 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+23:21:01 INFO  : Processor reset is completed for microblaze_0
+23:21:50 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+23:21:51 INFO  : Processor reset is completed for microblaze_0
+23:33:09 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+23:33:11 INFO  : Processor reset is completed for microblaze_0
+23:46:09 INFO  : FPGA Cable Disconnected. All active launches will be terminated.
+23:46:09 WARN  : Terminating existing sessions on processor microblaze_0
+23:46:27 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+19:00:54 INFO  : Launching XSDB server: xsdb.bat -interactive C:\Xilinx\Proj\image_proc\NexysVideo-master_v3\Projects\hdmi\proj\hdmi.sdk\temp_xsdb_launch_script.tcl
+19:00:58 INFO  : XSDB server has started successfully.
+19:01:00 INFO  : Processing command line option -hwspec C:/Xilinx/Proj/image_proc/NexysVideo-master_v3/Projects/hdmi/proj/hdmi.sdk/hdmi_wrapper.hdf.
+19:01:05 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1490813691238,  Project:1490751686648
+19:01:05 INFO  : Project hdmi_wrapper_hw_platform_0's source hardware specification located at C:/Xilinx/Projects/image_proc/NexysVideo-master_v3/Projects/hdmi/proj/hdmi.sdk/hdmi_wrapper.hdf is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated.
+19:03:55 INFO  : Copied contents of C:/Xilinx/Projects/image_proc/NexysVideo-master_v3/Projects/hdmi/proj/hdmi.sdk/hdmi_wrapper.hdf into \hdmi_wrapper_hw_platform_0\system.hdf.
+19:03:57 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+19:04:02 INFO  : 
+19:04:03 INFO  : Updating hardware inferred compiler options for hdmi_v6.
+19:04:03 INFO  : Clearing existing target manager status.
+19:04:03 WARN  : Unable to obtain port 2350 for use by XMD, java.net.SocketException: Unrecognized Windows Sockets error: 0: JVM_Bind
+19:09:14 ERROR : Unexpected error occurred during generating bsp sources
+java.lang.reflect.InvocationTargetException
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:420)
+	at org.eclipse.jface.dialogs.ProgressMonitorDialog.run(ProgressMonitorDialog.java:500)
+	at org.eclipse.ui.internal.progress.ProgressMonitorJobsDialog.run(ProgressMonitorJobsDialog.java:284)
+	at org.eclipse.ui.internal.progress.ProgressManager$3.run(ProgressManager.java:997)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.ui.internal.progress.ProgressManager.busyCursorWhile(ProgressManager.java:1032)
+	at org.eclipse.ui.internal.progress.ProgressManager.busyCursorWhile(ProgressManager.java:1007)
+	at org.eclipse.ui.internal.progress.ProgressManager.run(ProgressManager.java:1208)
+	at com.xilinx.sdk.sw.ui.handlers.RegenBspSourcesHandler.execute(RegenBspSourcesHandler.java:124)
+	at com.xilinx.sdk.sw.ui.handlers.RegenBspSourcesHandler.execute(RegenBspSourcesHandler.java:78)
+	at org.eclipse.ui.internal.handlers.HandlerProxy.execute(HandlerProxy.java:295)
+	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:90)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:56)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invokeUsingClass(InjectorImpl.java:252)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invoke(InjectorImpl.java:234)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.invoke(ContextInjectionFactory.java:132)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceHandler.execute(HandlerServiceHandler.java:152)
+	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:493)
+	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:486)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceImpl.executeHandler(HandlerServiceImpl.java:210)
+	at org.eclipse.e4.ui.workbench.renderers.swt.HandledContributionItem.executeItem(HandledContributionItem.java:799)
+	at org.eclipse.e4.ui.workbench.renderers.swt.HandledContributionItem.handleWidgetSelection(HandledContributionItem.java:675)
+	at org.eclipse.e4.ui.workbench.renderers.swt.HandledContributionItem.access$7(HandledContributionItem.java:659)
+	at org.eclipse.e4.ui.workbench.renderers.swt.HandledContributionItem$4.handleEvent(HandledContributionItem.java:592)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4362)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1113)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4180)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3769)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:1127)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:337)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1018)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:654)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:337)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:598)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:139)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:380)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:235)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:669)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:608)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1515)
+Caused by: java.lang.NullPointerException
+	at com.xilinx.sdk.sw.ui.handlers.RegenBspSourcesHandler$1.run(RegenBspSourcesHandler.java:135)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+19:35:57 INFO  : Processor reset is completed for microblaze_0
+19:36:02 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+19:36:04 INFO  : Processor reset is completed for microblaze_0
+19:43:53 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+19:43:55 INFO  : Processor reset is completed for microblaze_0
+19:55:07 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+19:55:08 INFO  : Processor reset is completed for microblaze_0
+20:03:45 INFO  : Processor reset is completed for microblaze_0
+20:04:50 INFO  : Processor reset is completed for microblaze_0
+20:08:07 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+20:08:09 INFO  : Processor reset is completed for microblaze_0
+20:12:47 INFO  : Processor reset is completed for microblaze_0
+20:13:36 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+20:13:37 INFO  : Processor reset is completed for microblaze_0
+20:20:06 INFO  : Processor reset is completed for microblaze_0
+20:24:47 INFO  : Processor reset is completed for microblaze_0
+20:29:23 INFO  : Processor reset is completed for microblaze_0
+20:29:46 INFO  : Processor reset is completed for microblaze_0
+20:31:11 INFO  : Processor reset is completed for microblaze_0
+20:35:16 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+20:35:19 INFO  : Processor reset is completed for microblaze_0
+20:36:53 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+20:36:55 INFO  : Processor reset is completed for microblaze_0
+20:40:10 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+20:40:19 INFO  : Processor reset is completed for microblaze_0
+20:42:42 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+20:42:44 INFO  : Processor reset is completed for microblaze_0
+20:43:25 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+20:43:27 INFO  : Processor reset is completed for microblaze_0
+20:45:27 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+20:45:28 INFO  : Processor reset is completed for microblaze_0
+20:51:36 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+20:51:40 INFO  : Processor reset is completed for microblaze_0
+21:48:56 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+03:06:05 INFO  : Launching XSDB server: xsdb.bat -interactive C:\Xilinx\Proj\image_proc\NexysVideo-master_v3\Projects\hdmi\proj\hdmi.sdk\temp_xsdb_launch_script.tcl
+03:06:07 INFO  : XSDB server has started successfully.
+03:06:09 INFO  : Processing command line option -hwspec C:/Xilinx/Proj/image_proc/NexysVideo-master_v3/Projects/hdmi/proj/hdmi.sdk/hdmi_wrapper.hdf.
+03:06:09 INFO  : Checking for hwspec changes in the project hdmi_wrapper_hw_platform_1.
+03:06:10 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1490856456693,  Project:1490826386824
+03:06:10 INFO  : The hardware specification for project 'hdmi_wrapper_hw_platform_1' is different from C:/Xilinx/Proj/image_proc/NexysVideo-master_v3/Projects/hdmi/proj/hdmi.sdk/hdmi_wrapper.hdf.
+03:06:10 INFO  : Copied contents of C:/Xilinx/Proj/image_proc/NexysVideo-master_v3/Projects/hdmi/proj/hdmi.sdk/hdmi_wrapper.hdf into \hdmi_wrapper_hw_platform_1\system.hdf.
+03:06:12 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+03:06:12 INFO  : Clearing existing target manager status.
+03:06:14 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+03:06:14 WARN  : Linker script will not be updated automatically. Users need to update it manually.
+03:06:46 ERROR : Unexpected error occurred during generating bsp sources
+java.lang.reflect.InvocationTargetException
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:420)
+	at org.eclipse.jface.dialogs.ProgressMonitorDialog.run(ProgressMonitorDialog.java:500)
+	at org.eclipse.ui.internal.progress.ProgressMonitorJobsDialog.run(ProgressMonitorJobsDialog.java:284)
+	at org.eclipse.ui.internal.progress.ProgressManager$3.run(ProgressManager.java:997)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.ui.internal.progress.ProgressManager.busyCursorWhile(ProgressManager.java:1032)
+	at org.eclipse.ui.internal.progress.ProgressManager.busyCursorWhile(ProgressManager.java:1007)
+	at org.eclipse.ui.internal.progress.ProgressManager.run(ProgressManager.java:1208)
+	at com.xilinx.sdk.sw.ui.handlers.RegenBspSourcesHandler.execute(RegenBspSourcesHandler.java:124)
+	at com.xilinx.sdk.sw.ui.handlers.RegenBspSourcesHandler.execute(RegenBspSourcesHandler.java:78)
+	at org.eclipse.ui.internal.handlers.HandlerProxy.execute(HandlerProxy.java:295)
+	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:90)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:56)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invokeUsingClass(InjectorImpl.java:252)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invoke(InjectorImpl.java:234)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.invoke(ContextInjectionFactory.java:132)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceHandler.execute(HandlerServiceHandler.java:152)
+	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:493)
+	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:486)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceImpl.executeHandler(HandlerServiceImpl.java:210)
+	at org.eclipse.e4.ui.workbench.renderers.swt.HandledContributionItem.executeItem(HandledContributionItem.java:799)
+	at org.eclipse.e4.ui.workbench.renderers.swt.HandledContributionItem.handleWidgetSelection(HandledContributionItem.java:675)
+	at org.eclipse.e4.ui.workbench.renderers.swt.HandledContributionItem.access$7(HandledContributionItem.java:659)
+	at org.eclipse.e4.ui.workbench.renderers.swt.HandledContributionItem$4.handleEvent(HandledContributionItem.java:592)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4362)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1113)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4180)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3769)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:1127)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:337)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1018)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:654)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:337)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:598)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:139)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:380)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:235)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:669)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:608)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1515)
+Caused by: java.lang.NullPointerException
+	at com.xilinx.sdk.sw.ui.handlers.RegenBspSourcesHandler$1.run(RegenBspSourcesHandler.java:135)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+03:09:30 INFO  : Processor reset is completed for microblaze_0
+03:13:31 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+20:50:42 INFO  : Launching XSDB server: xsdb.bat -interactive C:\Xilinx\Projects\image_proc\NexysVideo-master_v3\Projects\hdmi\proj\hdmi.sdk\temp_xsdb_launch_script.tcl
+20:50:44 INFO  : XSDB server has started successfully.
+20:50:45 INFO  : Processing command line option -hwspec C:/Xilinx/Projects/image_proc/NexysVideo-master_v3/Projects/hdmi/proj/hdmi.sdk/hdmi_wrapper.hdf.
+20:51:13 ERROR : (XSDB Server)ERROR: [Hsi 55-1403] C:/Xilinx/Projects/image_proc/NexysVideo-master_v3/Projects/hdmi/proj/hdmi.sdk/hdmi_v6_bsp/system.mss line 51 - No IP instance named microblaze_0_axi_intc present in hardware design
+
+20:51:13 ERROR : (XSDB Server)ERROR: [Hsi 55-1594] Core puck_detection_block of version 1.0 not found in repositories
+ERROR: [Hsi 55-1403] C:/Xilinx/Projects/image_proc/NexysVideo-master_v3/Projects/hdmi/proj/hdmi.sdk/hdmi_v6_bsp/system.mss line 81 - No IP instance named puck_detection_block_0 present in hardware design
+
+20:51:13 ERROR : (XSDB Server)ERROR: [Hsi 55-1452] Error: running open_sw_design.
+
+20:51:13 ERROR :  [Common 17-39] 'hsi::open_sw_design' failed due to earlier errors.
+20:51:13 ERROR : (XSDB Server)ERROR: [Hsi 55-1403] C:/Xilinx/Projects/image_proc/NexysVideo-master_v3/Projects/hdmi/proj/hdmi.sdk/hdmi_v6_bsp/system.mss line 51 - No IP instance named microblaze_0_axi_intc present in hardware design
+
+20:51:13 ERROR : (XSDB Server)ERROR: [Hsi 55-1594] Core puck_detection_block of version 1.0 not found in repositories
+ERROR: [Hsi 55-1403] C:/Xilinx/Projects/image_proc/NexysVideo-master_v3/Projects/hdmi/proj/hdmi.sdk/hdmi_v6_bsp/system.mss line 81 - No IP instance named puck_detection_block_0 present in hardware design
+
+20:51:13 ERROR : (XSDB Server)ERROR: [Hsi 55-1452] Error: running open_sw_design.
+
+20:51:13 INFO  : Unable to read in MSS file C:\Xilinx\Projects\image_proc\NexysVideo-master_v3\Projects\hdmi\proj\hdmi.sdk\hdmi_v6_bsp\system.mss : null
+20:51:13 ERROR : Unexpected error occurred during generating bsp sources
+java.lang.reflect.InvocationTargetException
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:420)
+	at org.eclipse.jface.dialogs.ProgressMonitorDialog.run(ProgressMonitorDialog.java:500)
+	at org.eclipse.ui.internal.progress.ProgressMonitorJobsDialog.run(ProgressMonitorJobsDialog.java:284)
+	at org.eclipse.ui.internal.progress.ProgressManager$3.run(ProgressManager.java:997)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.ui.internal.progress.ProgressManager.busyCursorWhile(ProgressManager.java:1032)
+	at org.eclipse.ui.internal.progress.ProgressManager.busyCursorWhile(ProgressManager.java:1007)
+	at org.eclipse.ui.internal.progress.ProgressManager.run(ProgressManager.java:1208)
+	at com.xilinx.sdk.sw.ui.handlers.RegenBspSourcesHandler.execute(RegenBspSourcesHandler.java:124)
+	at com.xilinx.sdk.sw.ui.handlers.RegenBspSourcesHandler.execute(RegenBspSourcesHandler.java:78)
+	at org.eclipse.ui.internal.handlers.HandlerProxy.execute(HandlerProxy.java:295)
+	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:90)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:56)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invokeUsingClass(InjectorImpl.java:252)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invoke(InjectorImpl.java:234)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.invoke(ContextInjectionFactory.java:132)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceHandler.execute(HandlerServiceHandler.java:152)
+	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:493)
+	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:486)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceImpl.executeHandler(HandlerServiceImpl.java:210)
+	at org.eclipse.e4.ui.workbench.renderers.swt.HandledContributionItem.executeItem(HandledContributionItem.java:799)
+	at org.eclipse.e4.ui.workbench.renderers.swt.HandledContributionItem.handleWidgetSelection(HandledContributionItem.java:675)
+	at org.eclipse.e4.ui.workbench.renderers.swt.HandledContributionItem.access$7(HandledContributionItem.java:659)
+	at org.eclipse.e4.ui.workbench.renderers.swt.HandledContributionItem$4.handleEvent(HandledContributionItem.java:592)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4362)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1113)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4180)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3769)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:1127)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:337)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1018)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:654)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:337)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:598)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:139)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:380)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:235)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:669)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:608)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1515)
+Caused by: java.lang.IllegalArgumentException: Path must include project and resource name: /hdmi_v6_bsp
+	at org.eclipse.core.runtime.Assert.isLegal(Assert.java:63)
+	at org.eclipse.core.internal.resources.Workspace.newResource(Workspace.java:2069)
+	at org.eclipse.core.internal.resources.Container.getFolder(Container.java:196)
+	at com.xilinx.sdk.sw.ui.handlers.RegenBspSourcesHandler.internalGenerateBsp(RegenBspSourcesHandler.java:169)
+	at com.xilinx.sdk.sw.ui.handlers.RegenBspSourcesHandler.access$2(RegenBspSourcesHandler.java:163)
+	at com.xilinx.sdk.sw.ui.handlers.RegenBspSourcesHandler$1$1.run(RegenBspSourcesHandler.java:131)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2241)
+	at com.xilinx.sdk.sw.ui.handlers.RegenBspSourcesHandler$1.run(RegenBspSourcesHandler.java:135)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+20:51:35 ERROR : (XSDB Server)ERROR: [Hsi 55-1403] C:/Xilinx/Projects/image_proc/NexysVideo-master_v3/Projects/hdmi/proj/hdmi.sdk/hdmi_v6_bsp/system.mss line 51 - No IP instance named microblaze_0_axi_intc present in hardware design
+
+20:51:35 ERROR : (XSDB Server)ERROR: [Hsi 55-1594] Core puck_detection_block of version 1.0 not found in repositories
+ERROR: [Hsi 55-1403] C:/Xilinx/Projects/image_proc/NexysVideo-master_v3/Projects/hdmi/proj/hdmi.sdk/hdmi_v6_bsp/system.mss line 81 - No IP instance named puck_detection_block_0 present in hardware design
+ERROR: [Hsi 55-1452] Error: running open_sw_design.
+
+20:51:35 ERROR :  [Common 17-39] 'hsi::open_sw_design' failed due to earlier errors.
+20:51:35 ERROR : (XSDB Server)ERROR: [Hsi 55-1403] C:/Xilinx/Projects/image_proc/NexysVideo-master_v3/Projects/hdmi/proj/hdmi.sdk/hdmi_v6_bsp/system.mss line 51 - No IP instance named microblaze_0_axi_intc present in hardware design
+
+20:51:35 ERROR : (XSDB Server)ERROR: [Hsi 55-1594] Core puck_detection_block of version 1.0 not found in repositories
+ERROR: [Hsi 55-1403] C:/Xilinx/Projects/image_proc/NexysVideo-master_v3/Projects/hdmi/proj/hdmi.sdk/hdmi_v6_bsp/system.mss line 81 - No IP instance named puck_detection_block_0 present in hardware design
+
+20:51:35 ERROR : (XSDB Server)ERROR: [Hsi 55-1452] Error: running open_sw_design.
+
+20:51:35 INFO  : Unable to read in MSS file C:\Xilinx\Projects\image_proc\NexysVideo-master_v3\Projects\hdmi\proj\hdmi.sdk\hdmi_v6_bsp\system.mss : null
+20:51:35 ERROR : Unexpected error occurred during generating bsp sources
+java.lang.reflect.InvocationTargetException
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:420)
+	at org.eclipse.jface.dialogs.ProgressMonitorDialog.run(ProgressMonitorDialog.java:500)
+	at org.eclipse.ui.internal.progress.ProgressMonitorJobsDialog.run(ProgressMonitorJobsDialog.java:284)
+	at org.eclipse.ui.internal.progress.ProgressManager$3.run(ProgressManager.java:997)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.ui.internal.progress.ProgressManager.busyCursorWhile(ProgressManager.java:1032)
+	at org.eclipse.ui.internal.progress.ProgressManager.busyCursorWhile(ProgressManager.java:1007)
+	at org.eclipse.ui.internal.progress.ProgressManager.run(ProgressManager.java:1208)
+	at com.xilinx.sdk.sw.ui.handlers.RegenBspSourcesHandler.execute(RegenBspSourcesHandler.java:124)
+	at com.xilinx.sdk.sw.ui.handlers.RegenBspSourcesHandler.execute(RegenBspSourcesHandler.java:78)
+	at org.eclipse.ui.internal.handlers.HandlerProxy.execute(HandlerProxy.java:295)
+	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:90)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:56)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invokeUsingClass(InjectorImpl.java:252)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invoke(InjectorImpl.java:234)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.invoke(ContextInjectionFactory.java:132)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceHandler.execute(HandlerServiceHandler.java:152)
+	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:493)
+	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:486)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceImpl.executeHandler(HandlerServiceImpl.java:210)
+	at org.eclipse.e4.ui.workbench.renderers.swt.HandledContributionItem.executeItem(HandledContributionItem.java:799)
+	at org.eclipse.e4.ui.workbench.renderers.swt.HandledContributionItem.handleWidgetSelection(HandledContributionItem.java:675)
+	at org.eclipse.e4.ui.workbench.renderers.swt.HandledContributionItem.access$7(HandledContributionItem.java:659)
+	at org.eclipse.e4.ui.workbench.renderers.swt.HandledContributionItem$4.handleEvent(HandledContributionItem.java:592)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4362)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1113)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4180)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3769)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:1127)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:337)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1018)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:654)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:337)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:598)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:139)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:380)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:235)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:669)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:608)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1515)
+Caused by: java.lang.IllegalArgumentException: Path must include project and resource name: /hdmi_v6_bsp
+	at org.eclipse.core.runtime.Assert.isLegal(Assert.java:63)
+	at org.eclipse.core.internal.resources.Workspace.newResource(Workspace.java:2069)
+	at org.eclipse.core.internal.resources.Container.getFolder(Container.java:196)
+	at com.xilinx.sdk.sw.ui.handlers.RegenBspSourcesHandler.internalGenerateBsp(RegenBspSourcesHandler.java:169)
+	at com.xilinx.sdk.sw.ui.handlers.RegenBspSourcesHandler.access$2(RegenBspSourcesHandler.java:163)
+	at com.xilinx.sdk.sw.ui.handlers.RegenBspSourcesHandler$1$1.run(RegenBspSourcesHandler.java:131)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2241)
+	at com.xilinx.sdk.sw.ui.handlers.RegenBspSourcesHandler$1.run(RegenBspSourcesHandler.java:135)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+20:51:47 ERROR : (XSDB Server)ERROR: [Hsi 55-1403] C:/Xilinx/Projects/image_proc/NexysVideo-master_v3/Projects/hdmi/proj/hdmi.sdk/hdmi_v6_bsp/system.mss line 51 - No IP instance named microblaze_0_axi_intc present in hardware design
+
+20:51:47 ERROR : (XSDB Server)ERROR: [Hsi 55-1594] Core puck_detection_block of version 1.0 not found in repositories
+ERROR: [Hsi 55-1403] C:/Xilinx/Projects/image_proc/NexysVideo-master_v3/Projects/hdmi/proj/hdmi.sdk/hdmi_v6_bsp/system.mss line 81 - No IP instance named puck_detection_block_0 present in hardware design
+ERROR: [Hsi 55-1452] Error: running open_sw_design.
+
+20:51:47 ERROR :  [Common 17-39] 'hsi::open_sw_design' failed due to earlier errors.
+20:51:47 ERROR : (XSDB Server)ERROR: [Hsi 55-1403] C:/Xilinx/Projects/image_proc/NexysVideo-master_v3/Projects/hdmi/proj/hdmi.sdk/hdmi_v6_bsp/system.mss line 51 - No IP instance named microblaze_0_axi_intc present in hardware design
+
+20:51:47 ERROR : (XSDB Server)ERROR: [Hsi 55-1594] Core puck_detection_block of version 1.0 not found in repositories
+ERROR: [Hsi 55-1403] C:/Xilinx/Projects/image_proc/NexysVideo-master_v3/Projects/hdmi/proj/hdmi.sdk/hdmi_v6_bsp/system.mss line 81 - No IP instance named puck_detection_block_0 present in hardware design
+
+20:51:47 ERROR : (XSDB Server)ERROR: [Hsi 55-1452] Error: running open_sw_design.
+
+20:51:47 INFO  : Unable to read in MSS file C:\Xilinx\Projects\image_proc\NexysVideo-master_v3\Projects\hdmi\proj\hdmi.sdk\hdmi_v6_bsp\system.mss : null
+20:51:47 ERROR : (XSDB Server)ERROR: [Hsi 55-1403] C:/Xilinx/Projects/image_proc/NexysVideo-master_v3/Projects/hdmi/proj/hdmi.sdk/hdmi_v6_bsp/system.mss line 51 - No IP instance named microblaze_0_axi_intc present in hardware design
+
+20:51:47 ERROR : (XSDB Server)ERROR: [Hsi 55-1594] Core puck_detection_block of version 1.0 not found in repositories
+ERROR: [Hsi 55-1403] C:/Xilinx/Projects/image_proc/NexysVideo-master_v3/Projects/hdmi/proj/hdmi.sdk/hdmi_v6_bsp/system.mss line 81 - No IP instance named puck_detection_block_0 present in hardware design
+
+20:51:47 ERROR : (XSDB Server)ERROR: [Hsi 55-1452] Error: running open_sw_design.
+
+20:51:47 ERROR : (XSDB Server)ERROR: [Hsi 55-1403] C:/Xilinx/Projects/image_proc/NexysVideo-master_v3/Projects/hdmi/proj/hdmi.sdk/hdmi_v6_bsp/system.mss line 51 - No IP instance named microblaze_0_axi_intc present in hardware design
+
+20:51:47 ERROR : (XSDB Server)ERROR: [Hsi 55-1594] Core puck_detection_block of version 1.0 not found in repositories
+
+20:51:47 ERROR : (XSDB Server)ERROR: [Hsi 55-1403] C:/Xilinx/Projects/image_proc/NexysVideo-master_v3/Projects/hdmi/proj/hdmi.sdk/hdmi_v6_bsp/system.mss line 81 - No IP instance named puck_detection_block_0 present in hardware design
+
+20:51:47 ERROR : (XSDB Server)ERROR: [Hsi 55-1452] Error: running open_sw_design.
+
+20:51:48 ERROR : (XSDB Server)ERROR: [Hsi 55-1403] C:/Xilinx/Projects/image_proc/NexysVideo-master_v3/Projects/hdmi/proj/hdmi.sdk/hdmi_v6_bsp/system.mss line 51 - No IP instance named microblaze_0_axi_intc present in hardware design
+
+20:51:48 ERROR : (XSDB Server)ERROR: [Hsi 55-1594] Core puck_detection_block of version 1.0 not found in repositories
+ERROR: [Hsi 55-1403] C:/Xilinx/Projects/image_proc/NexysVideo-master_v3/Projects/hdmi/proj/hdmi.sdk/hdmi_v6_bsp/system.mss line 81 - No IP instance named puck_detection_block_0 present in hardware design
+
+20:51:48 ERROR : (XSDB Server)ERROR: [Hsi 55-1452] Error: running open_sw_design.
+
+20:51:48 ERROR :  [Common 17-39] 'hsi::open_sw_design' failed due to earlier errors.
+20:51:48 ERROR : (XSDB Server)ERROR: [Hsi 55-1403] C:/Xilinx/Projects/image_proc/NexysVideo-master_v3/Projects/hdmi/proj/hdmi.sdk/hdmi_v6_bsp/system.mss line 51 - No IP instance named microblaze_0_axi_intc present in hardware design
+
+20:51:48 ERROR : (XSDB Server)ERROR: [Hsi 55-1594] Core puck_detection_block of version 1.0 not found in repositories
+ERROR: [Hsi 55-1403] C:/Xilinx/Projects/image_proc/NexysVideo-master_v3/Projects/hdmi/proj/hdmi.sdk/hdmi_v6_bsp/system.mss line 81 - No IP instance named puck_detection_block_0 present in hardware design
+
+20:51:48 ERROR : (XSDB Server)ERROR: [Hsi 55-1452] Error: running open_sw_design.
+
+20:51:48 INFO  : Unable to read in MSS file C:\Xilinx\Projects\image_proc\NexysVideo-master_v3\Projects\hdmi\proj\hdmi.sdk\hdmi_v6_bsp\system.mss : null
+20:51:48 ERROR : (XSDB Server)ERROR: [Hsi 55-1403] C:/Xilinx/Projects/image_proc/NexysVideo-master_v3/Projects/hdmi/proj/hdmi.sdk/hdmi_v6_bsp/system.mss line 51 - No IP instance named microblaze_0_axi_intc present in hardware design
+
+20:51:48 ERROR : (XSDB Server)ERROR: [Hsi 55-1594] Core puck_detection_block of version 1.0 not found in repositories
+ERROR: [Hsi 55-1403] C:/Xilinx/Projects/image_proc/NexysVideo-master_v3/Projects/hdmi/proj/hdmi.sdk/hdmi_v6_bsp/system.mss line 81 - No IP instance named puck_detection_block_0 present in hardware design
+ERROR: [Hsi 55-1452] Error: running open_sw_design.
+
+20:51:48 ERROR : Failed to closesw "C:/Xilinx/Projects/image_proc/NexysVideo-master_v3/Projects/hdmi/proj/hdmi.sdk/hdmi_v6_bsp/system.mss"
+Reason: Cannot close sw design 'C:/Xilinx/Projects/image_proc/NexysVideo-master_v3/Projects/hdmi/proj/hdmi.sdk/hdmi_v6_bsp/system.mss'.
+Design is not opened in the current session.
+
+
+20:52:18 ERROR : (XSDB Server)ERROR: [Hsi 55-1403] C:/Xilinx/Projects/image_proc/NexysVideo-master_v3/Projects/hdmi/proj/hdmi.sdk/hdmi_v6_bsp/system.mss line 51 - No IP instance named microblaze_0_axi_intc present in hardware design
+
+20:52:18 ERROR : (XSDB Server)ERROR: [Hsi 55-1594] Core puck_detection_block of version 1.0 not found in repositories
+ERROR: [Hsi 55-1403] C:/Xilinx/Projects/image_proc/NexysVideo-master_v3/Projects/hdmi/proj/hdmi.sdk/hdmi_v6_bsp/system.mss line 81 - No IP instance named puck_detection_block_0 present in hardware design
+ERROR: [Hsi 55-1452] Error: running open_sw_design.
+
+20:52:18 ERROR :  [Common 17-39] 'hsi::open_sw_design' failed due to earlier errors.
+20:52:18 ERROR : (XSDB Server)ERROR: [Hsi 55-1403] C:/Xilinx/Projects/image_proc/NexysVideo-master_v3/Projects/hdmi/proj/hdmi.sdk/hdmi_v6_bsp/system.mss line 51 - No IP instance named microblaze_0_axi_intc present in hardware design
+
+20:52:18 ERROR : (XSDB Server)ERROR: [Hsi 55-1594] Core puck_detection_block of version 1.0 not found in repositories
+ERROR: [Hsi 55-1403] C:/Xilinx/Projects/image_proc/NexysVideo-master_v3/Projects/hdmi/proj/hdmi.sdk/hdmi_v6_bsp/system.mss line 81 - No IP instance named puck_detection_block_0 present in hardware design
+
+20:52:18 ERROR : (XSDB Server)ERROR: [Hsi 55-1452] Error: running open_sw_design.
+
+20:52:18 INFO  : Unable to read in MSS file C:\Xilinx\Projects\image_proc\NexysVideo-master_v3\Projects\hdmi\proj\hdmi.sdk\hdmi_v6_bsp\system.mss : null
+20:52:18 ERROR : (XSDB Server)ERROR: [Hsi 55-1403] C:/Xilinx/Projects/image_proc/NexysVideo-master_v3/Projects/hdmi/proj/hdmi.sdk/hdmi_v6_bsp/system.mss line 51 - No IP instance named microblaze_0_axi_intc present in hardware design
+
+20:52:18 ERROR : (XSDB Server)ERROR: [Hsi 55-1594] Core puck_detection_block of version 1.0 not found in repositories
+ERROR: [Hsi 55-1403] C:/Xilinx/Projects/image_proc/NexysVideo-master_v3/Projects/hdmi/proj/hdmi.sdk/hdmi_v6_bsp/system.mss line 81 - No IP instance named puck_detection_block_0 present in hardware design
+
+20:52:18 ERROR : (XSDB Server)ERROR: [Hsi 55-1452] Error: running open_sw_design.
+
+20:52:18 ERROR : (XSDB Server)ERROR: [Hsi 55-1403] C:/Xilinx/Projects/image_proc/NexysVideo-master_v3/Projects/hdmi/proj/hdmi.sdk/hdmi_v6_bsp/system.mss line 51 - No IP instance named microblaze_0_axi_intc present in hardware design
+
+20:52:18 ERROR : (XSDB Server)ERROR: [Hsi 55-1594] Core puck_detection_block of version 1.0 not found in repositories
+ERROR: [Hsi 55-1403] C:/Xilinx/Projects/image_proc/NexysVideo-master_v3/Projects/hdmi/proj/hdmi.sdk/hdmi_v6_bsp/system.mss line 81 - No IP instance named puck_detection_block_0 present in hardware design
+
+20:52:18 ERROR : (XSDB Server)ERROR: [Hsi 55-1452] Error: running open_sw_design.
+
+20:52:18 ERROR : Failed to get_connected_periphs
+Reason: ERROR: [Common 17-55] 'get_property' expects at least one object.
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+
+20:53:51 ERROR : Unable to load properties file .sdkproject for project hdmi_v6_bsp.
+20:53:51 ERROR : Unable to load properties file .sdkproject for project hdmi_v6_bsp.
+20:53:56 ERROR : Unable to load properties file .sdkproject for project hdmi_v6_bsp.
+20:53:56 ERROR : Unable to load properties file .sdkproject for project hdmi_v6_bsp.
+21:27:43 INFO  : Launching XSDB server: xsdb.bat -interactive C:\Xilinx\Projects\image_proc\NexysVideo-master_v3\Projects\hdmi\proj\hdmi.sdk\temp_xsdb_launch_script.tcl
+21:27:45 INFO  : XSDB server has started successfully.
+21:27:45 INFO  : Processing command line option -hwspec C:/Xilinx/Projects/image_proc/NexysVideo-master_v3/Projects/hdmi/proj/hdmi.sdk/hdmi_wrapper.hdf.
+21:42:08 INFO  : Processor reset is completed for microblaze_0
+21:47:01 INFO  : Processor reset is completed for microblaze_0
+21:48:12 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+21:48:58 INFO  : Launching XSDB server: xsdb.bat -interactive C:\Xilinx\Projects\image_proc\NexysVideo-master_v3\Projects\hdmi\proj\hdmi.sdk\temp_xsdb_launch_script.tcl
+21:49:02 INFO  : XSDB server has started successfully.
+21:49:04 INFO  : Processing command line option -hwspec C:/Xilinx/Projects/image_proc/NexysVideo-master_v3/Projects/hdmi/proj/hdmi.sdk/hdmi_wrapper.hdf.
+21:49:04 INFO  : Checking for hwspec changes in the project hdmi_wrapper_hw_platform_0.
+21:49:18 INFO  : Processor reset is completed for microblaze_0
+21:56:24 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+21:57:02 INFO  : Launching XSDB server: xsdb.bat -interactive C:\Xilinx\Projects\image_proc\NexysVideo-master_v3\Projects\hdmi\proj\hdmi.sdk\temp_xsdb_launch_script.tcl
+21:57:04 INFO  : XSDB server has started successfully.
+21:57:04 INFO  : Processing command line option -hwspec C:/Xilinx/Projects/image_proc/NexysVideo-master_v3/Projects/hdmi/proj/hdmi.sdk/hdmi_wrapper.hdf.
+21:57:04 INFO  : Checking for hwspec changes in the project hdmi_wrapper_hw_platform_0.
+21:59:14 INFO  : Processor reset is completed for microblaze_0
+22:00:52 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+22:01:19 INFO  : Launching XSDB server: xsdb.bat -interactive C:\Xilinx\Projects\image_proc\NexysVideo-master_v3\Projects\hdmi\proj\hdmi.sdk\temp_xsdb_launch_script.tcl
+22:01:21 INFO  : XSDB server has started successfully.
+22:01:21 INFO  : Processing command line option -hwspec C:/Xilinx/Projects/image_proc/NexysVideo-master_v3/Projects/hdmi/proj/hdmi.sdk/hdmi_wrapper.hdf.
+22:01:21 INFO  : Checking for hwspec changes in the project hdmi_wrapper_hw_platform_0.
+22:02:42 INFO  : Launching XSDB server: xsdb.bat -interactive C:\Xilinx\Projects\image_proc\NexysVideo-master_v3\Projects\hdmi\proj\hdmi.sdk\temp_xsdb_launch_script.tcl
+22:02:44 INFO  : XSDB server has started successfully.
+22:02:44 INFO  : Processing command line option -hwspec C:/Xilinx/Projects/image_proc/NexysVideo-master_v3/Projects/hdmi/proj/hdmi.sdk/hdmi_wrapper.hdf.
+22:02:44 INFO  : Checking for hwspec changes in the project hdmi_wrapper_hw_platform_0.
+22:03:35 INFO  : Processor reset is completed for microblaze_0
+22:07:28 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+22:09:10 INFO  : Launching XSDB server: xsdb.bat -interactive C:\Xilinx\Projects\image_proc\NexysVideo-master_v3\Projects\hdmi\proj\hdmi.sdk\temp_xsdb_launch_script.tcl
+22:09:12 INFO  : XSDB server has started successfully.
+22:09:13 INFO  : Processing command line option -hwspec C:/Xilinx/Projects/image_proc/NexysVideo-master_v3/Projects/hdmi/proj/hdmi.sdk/hdmi_wrapper.hdf.
+22:09:13 INFO  : Checking for hwspec changes in the project hdmi_wrapper_hw_platform_0.
+22:09:36 INFO  : Processor reset is completed for microblaze_0
+22:25:52 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+22:25:55 INFO  : Processor reset is completed for microblaze_0
+22:27:10 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+22:28:11 INFO  : Launching XSDB server: xsdb.bat -interactive C:\Xilinx\Projects\image_proc\NexysVideo-master_v3\Projects\hdmi\proj\hdmi.sdk\temp_xsdb_launch_script.tcl
+22:28:13 INFO  : XSDB server has started successfully.
+22:28:14 INFO  : Processing command line option -hwspec C:/Xilinx/Projects/image_proc/NexysVideo-master_v3/Projects/hdmi/proj/hdmi.sdk/hdmi_wrapper.hdf.
+22:28:14 INFO  : Checking for hwspec changes in the project hdmi_wrapper_hw_platform_0.
+22:28:29 INFO  : Processor reset is completed for microblaze_0
+22:29:21 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+22:30:02 INFO  : Launching XSDB server: xsdb.bat -interactive C:\Xilinx\Projects\image_proc\NexysVideo-master_v3\Projects\hdmi\proj\hdmi.sdk\temp_xsdb_launch_script.tcl
+22:30:04 INFO  : XSDB server has started successfully.
+22:30:04 INFO  : Processing command line option -hwspec C:/Xilinx/Projects/image_proc/NexysVideo-master_v3/Projects/hdmi/proj/hdmi.sdk/hdmi_wrapper.hdf.
+22:30:04 INFO  : Checking for hwspec changes in the project hdmi_wrapper_hw_platform_0.
+22:30:49 INFO  : Processor reset is completed for microblaze_0
+22:37:57 INFO  : Processor reset is completed for microblaze_0
+22:43:40 INFO  : Processor reset is completed for microblaze_0
+22:51:57 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+22:51:59 INFO  : Processor reset is completed for microblaze_0
+22:54:03 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+22:54:08 INFO  : Processor reset is completed for microblaze_0
+22:59:06 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+22:59:09 INFO  : Processor reset is completed for microblaze_0
+23:18:10 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+23:18:32 INFO  : Launching XSDB server: xsdb.bat -interactive C:\Xilinx\Projects\image_proc\NexysVideo-master_v3\Projects\hdmi\proj\hdmi.sdk\temp_xsdb_launch_script.tcl
+23:18:34 INFO  : XSDB server has started successfully.
+23:18:35 INFO  : Processing command line option -hwspec C:/Xilinx/Projects/image_proc/NexysVideo-master_v3/Projects/hdmi/proj/hdmi.sdk/hdmi_wrapper.hdf.
+23:18:35 INFO  : Checking for hwspec changes in the project hdmi_wrapper_hw_platform_0.
+23:18:50 INFO  : Processor reset is completed for microblaze_0
+23:20:21 INFO  : Processor reset is completed for microblaze_0
+23:31:21 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+23:32:11 INFO  : Launching XSDB server: xsdb.bat -interactive C:\Xilinx\Projects\image_proc\NexysVideo-master_v3\Projects\hdmi\proj\hdmi.sdk\temp_xsdb_launch_script.tcl
+23:32:13 INFO  : XSDB server has started successfully.
+23:32:13 INFO  : Processing command line option -hwspec C:/Xilinx/Projects/image_proc/NexysVideo-master_v3/Projects/hdmi/proj/hdmi.sdk/hdmi_wrapper.hdf.
+23:32:13 INFO  : Checking for hwspec changes in the project hdmi_wrapper_hw_platform_0.
+23:32:38 INFO  : Processor reset is completed for microblaze_0
+23:34:47 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+23:34:49 INFO  : Processor reset is completed for microblaze_0
+23:37:21 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+23:37:22 INFO  : Processor reset is completed for microblaze_0
+23:42:11 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+23:42:32 INFO  : Launching XSDB server: xsdb.bat -interactive C:\Xilinx\Projects\image_proc\NexysVideo-master_v3\Projects\hdmi\proj\hdmi.sdk\temp_xsdb_launch_script.tcl
+23:42:34 INFO  : XSDB server has started successfully.
+23:42:34 INFO  : Processing command line option -hwspec C:/Xilinx/Projects/image_proc/NexysVideo-master_v3/Projects/hdmi/proj/hdmi.sdk/hdmi_wrapper.hdf.
+23:42:34 INFO  : Checking for hwspec changes in the project hdmi_wrapper_hw_platform_0.
+23:43:04 INFO  : Processor reset is completed for microblaze_0
+23:46:51 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+23:47:25 INFO  : Launching XSDB server: xsdb.bat -interactive C:\Xilinx\Projects\image_proc\NexysVideo-master_v3\Projects\hdmi\proj\hdmi.sdk\temp_xsdb_launch_script.tcl
+23:47:27 INFO  : XSDB server has started successfully.
+23:47:27 INFO  : Processing command line option -hwspec C:/Xilinx/Projects/image_proc/NexysVideo-master_v3/Projects/hdmi/proj/hdmi.sdk/hdmi_wrapper.hdf.
+23:47:27 INFO  : Checking for hwspec changes in the project hdmi_wrapper_hw_platform_0.
+23:48:05 INFO  : Processor reset is completed for microblaze_0
+23:50:26 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+23:50:28 INFO  : Processor reset is completed for microblaze_0
+23:51:20 INFO  : Processor reset is completed for microblaze_0
+23:52:46 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+23:53:54 INFO  : Launching XSDB server: xsdb.bat -interactive C:\Xilinx\Projects\image_proc\NexysVideo-master_v3\Projects\hdmi\proj\hdmi.sdk\temp_xsdb_launch_script.tcl
+23:53:56 INFO  : XSDB server has started successfully.
+23:53:56 INFO  : Processing command line option -hwspec C:/Xilinx/Projects/image_proc/NexysVideo-master_v3/Projects/hdmi/proj/hdmi.sdk/hdmi_wrapper.hdf.
+23:53:56 INFO  : Checking for hwspec changes in the project hdmi_wrapper_hw_platform_0.
+23:54:25 INFO  : Processor reset is completed for microblaze_0
+23:57:06 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+23:57:57 INFO  : Launching XSDB server: xsdb.bat -interactive C:\Xilinx\Projects\image_proc\NexysVideo-master_v3\Projects\hdmi\proj\hdmi.sdk\temp_xsdb_launch_script.tcl
+23:57:59 INFO  : XSDB server has started successfully.
+23:57:59 INFO  : Processing command line option -hwspec C:/Xilinx/Projects/image_proc/NexysVideo-master_v3/Projects/hdmi/proj/hdmi.sdk/hdmi_wrapper.hdf.
+23:57:59 INFO  : Checking for hwspec changes in the project hdmi_wrapper_hw_platform_0.
+23:58:17 INFO  : Processor reset is completed for microblaze_0
+00:01:57 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+00:01:59 INFO  : Processor reset is completed for microblaze_0
+00:03:14 INFO  : Processor reset is completed for microblaze_0
+00:06:59 INFO  : Processor reset is completed for microblaze_0
+00:17:32 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+00:20:13 INFO  : Launching XSDB server: xsdb.bat -interactive C:\Xilinx\Projects\image_proc\NexysVideo-master_v3\Projects\hdmi\proj\hdmi.sdk\temp_xsdb_launch_script.tcl
+00:20:17 INFO  : XSDB server has started successfully.
+00:20:18 INFO  : Processing command line option -hwspec C:/Xilinx/Projects/image_proc/NexysVideo-master_v3/Projects/hdmi/proj/hdmi.sdk/hdmi_wrapper.hdf.
+00:20:18 INFO  : Checking for hwspec changes in the project hdmi_wrapper_hw_platform_0.
+00:20:46 INFO  : Processor reset is completed for microblaze_0
+00:22:17 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+00:23:38 INFO  : Launching XSDB server: xsdb.bat -interactive C:\Xilinx\Projects\image_proc\NexysVideo-master_v3\Projects\hdmi\proj\hdmi.sdk\temp_xsdb_launch_script.tcl
+00:23:40 INFO  : XSDB server has started successfully.
+00:23:41 INFO  : Processing command line option -hwspec C:/Xilinx/Projects/image_proc/NexysVideo-master_v3/Projects/hdmi/proj/hdmi.sdk/hdmi_wrapper.hdf.
+00:23:41 INFO  : Checking for hwspec changes in the project hdmi_wrapper_hw_platform_0.
+00:25:33 INFO  : Processor reset is completed for microblaze_0
+00:29:09 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+00:30:16 INFO  : Launching XSDB server: xsdb.bat -interactive C:\Xilinx\Projects\image_proc\NexysVideo-master_v3\Projects\hdmi\proj\hdmi.sdk\temp_xsdb_launch_script.tcl
+00:30:18 INFO  : XSDB server has started successfully.
+00:30:19 INFO  : Processing command line option -hwspec C:/Xilinx/Projects/image_proc/NexysVideo-master_v3/Projects/hdmi/proj/hdmi.sdk/hdmi_wrapper.hdf.
+00:30:19 INFO  : Checking for hwspec changes in the project hdmi_wrapper_hw_platform_0.
+00:31:25 INFO  : Processor reset is completed for microblaze_0
+00:35:08 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+00:35:11 INFO  : Processor reset is completed for microblaze_0
+00:36:58 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+00:37:00 INFO  : Processor reset is completed for microblaze_0
+00:41:50 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+00:41:52 INFO  : Processor reset is completed for microblaze_0
+00:45:05 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+00:45:06 INFO  : Processor reset is completed for microblaze_0
+00:48:23 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+00:48:24 INFO  : Processor reset is completed for microblaze_0
+00:51:07 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+00:51:08 INFO  : Processor reset is completed for microblaze_0
+00:52:15 INFO  : Processor reset is completed for microblaze_0
+00:55:03 INFO  : Processor reset is completed for microblaze_0
+00:56:37 INFO  : Processor reset is completed for microblaze_0
+00:58:45 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+00:59:32 INFO  : Launching XSDB server: xsdb.bat -interactive C:\Xilinx\Projects\image_proc\NexysVideo-master_v3\Projects\hdmi\proj\hdmi.sdk\temp_xsdb_launch_script.tcl
+00:59:35 INFO  : XSDB server has started successfully.
+00:59:35 INFO  : Processing command line option -hwspec C:/Xilinx/Projects/image_proc/NexysVideo-master_v3/Projects/hdmi/proj/hdmi.sdk/hdmi_wrapper.hdf.
+00:59:35 INFO  : Checking for hwspec changes in the project hdmi_wrapper_hw_platform_0.
+01:00:18 INFO  : Processor reset is completed for microblaze_0
+01:03:30 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+01:03:31 INFO  : Processor reset is completed for microblaze_0
+01:06:39 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+01:06:41 INFO  : Processor reset is completed for microblaze_0
+01:09:25 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+01:09:27 INFO  : Processor reset is completed for microblaze_0
+01:17:14 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+01:17:15 INFO  : Processor reset is completed for microblaze_0
+01:21:55 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+01:21:56 INFO  : Processor reset is completed for microblaze_0
+01:26:03 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+01:26:04 INFO  : Processor reset is completed for microblaze_0
+01:57:13 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+02:13:38 INFO  : Launching XSDB server: xsdb.bat -interactive C:\Xilinx\Projects\image_proc\NexysVideo-master_v3\Projects\hdmi\proj\hdmi.sdk\temp_xsdb_launch_script.tcl
+02:13:41 INFO  : XSDB server has started successfully.
+02:13:42 INFO  : Processing command line option -hwspec C:/Xilinx/Projects/image_proc/NexysVideo-master_v3/Projects/hdmi/proj/hdmi.sdk/hdmi_wrapper.hdf.
+02:13:42 INFO  : Checking for hwspec changes in the project hdmi_wrapper_hw_platform_0.
+02:23:20 INFO  : Processor reset is completed for microblaze_0
+02:28:14 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+02:28:15 INFO  : Processor reset is completed for microblaze_0
+02:29:54 INFO  : Processor reset is completed for microblaze_0
+02:38:20 INFO  : Processor reset is completed for microblaze_0
+02:39:16 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+02:39:18 INFO  : Processor reset is completed for microblaze_0
+02:39:56 INFO  : Processor reset is completed for microblaze_0
+02:41:30 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+02:41:31 INFO  : Processor reset is completed for microblaze_0
+02:43:36 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+02:43:38 INFO  : Processor reset is completed for microblaze_0
+02:44:46 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+02:44:48 INFO  : Processor reset is completed for microblaze_0
+02:51:05 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+02:51:06 INFO  : Processor reset is completed for microblaze_0
+02:55:55 INFO  : Processor reset is completed for microblaze_0
+03:01:00 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+03:01:01 INFO  : Processor reset is completed for microblaze_0
+03:02:04 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+03:02:05 INFO  : Processor reset is completed for microblaze_0
+03:05:42 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+03:05:43 INFO  : Processor reset is completed for microblaze_0
+03:12:03 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+03:12:05 INFO  : Processor reset is completed for microblaze_0
+03:19:02 INFO  : Processor reset is completed for microblaze_0
+03:26:58 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+03:27:02 INFO  : Processor reset is completed for microblaze_0
+03:36:50 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+03:36:51 INFO  : Processor reset is completed for microblaze_0
+03:53:01 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+03:53:03 INFO  : Processor reset is completed for microblaze_0
+03:56:48 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+03:56:50 INFO  : Processor reset is completed for microblaze_0
+04:01:30 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+04:01:32 INFO  : Processor reset is completed for microblaze_0
+04:04:28 INFO  : Processor reset is completed for microblaze_0
+04:06:35 INFO  : Processor reset is completed for microblaze_0
+04:08:07 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+04:08:08 INFO  : Processor reset is completed for microblaze_0
+04:10:01 INFO  : Processor reset is completed for microblaze_0
+04:22:25 INFO  : Processor reset is completed for microblaze_0
+04:25:54 INFO  : Processor reset is completed for microblaze_0
+04:29:48 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+04:29:50 INFO  : Processor reset is completed for microblaze_0
+04:35:48 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+04:35:50 INFO  : Processor reset is completed for microblaze_0
+04:39:38 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+04:39:39 INFO  : Processor reset is completed for microblaze_0
+04:44:16 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+04:44:17 INFO  : Processor reset is completed for microblaze_0
+04:51:20 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+04:51:46 INFO  : Processor reset is completed for microblaze_0
+05:01:13 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+05:01:14 INFO  : Processor reset is completed for microblaze_0
+05:06:02 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+05:08:25 INFO  : Launching XSDB server: xsdb.bat -interactive C:\Xilinx\Projects\image_proc\NexysVideo-master_v3\Projects\hdmi\proj\hdmi.sdk\temp_xsdb_launch_script.tcl
+05:08:28 INFO  : XSDB server has started successfully.
+05:08:30 INFO  : Processing command line option -hwspec C:/Xilinx/Projects/image_proc/NexysVideo-master_v3/Projects/hdmi/proj/hdmi.sdk/hdmi_wrapper.hdf.
+05:08:30 INFO  : Checking for hwspec changes in the project hdmi_wrapper_hw_platform_0.
+05:09:21 INFO  : Processor reset is completed for microblaze_0
+05:11:51 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+05:11:53 INFO  : Processor reset is completed for microblaze_0
+05:14:25 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+05:14:31 INFO  : Processor reset is completed for microblaze_0
+05:16:28 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+14:02:21 INFO  : Launching XSDB server: xsdb.bat -interactive C:\Xilinx\Projects\image_proc\NexysVideo-master_v3\Projects\hdmi\proj\hdmi.sdk\temp_xsdb_launch_script.tcl
+14:02:24 INFO  : XSDB server has started successfully.
+14:02:25 INFO  : Processing command line option -hwspec C:/Xilinx/Projects/image_proc/NexysVideo-master_v3/Projects/hdmi/proj/hdmi.sdk/hdmi_wrapper.hdf.
+14:02:25 INFO  : Checking for hwspec changes in the project hdmi_wrapper_hw_platform_0.
+14:05:09 INFO  : Processor reset is completed for microblaze_0
+14:06:22 INFO  : Processor reset is completed for microblaze_0
+14:10:20 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+14:10:22 INFO  : Processor reset is completed for microblaze_0
+14:16:18 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+14:16:19 INFO  : Processor reset is completed for microblaze_0
+14:26:52 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+14:26:53 INFO  : Processor reset is completed for microblaze_0
+15:03:51 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+15:03:53 INFO  : Processor reset is completed for microblaze_0
+21:37:15 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+20:06:36 INFO  : Launching XSDB server: xsdb.bat -interactive C:\Users\454b\Downloads\src\image_proc\NexysVideo-master_v3\Projects\hdmi\proj\hdmi.sdk\temp_xsdb_launch_script.tcl
+20:06:40 INFO  : XSDB server has started successfully.
+20:06:41 INFO  : Processing command line option -hwspec C:/Users/454b/Downloads/src/image_proc/NexysVideo-master_v3/Projects/hdmi/proj/hdmi.sdk/hdmi_wrapper.hdf.

@@ -1,0 +1,117 @@
+#include "strategy.h"
+#include "motor_lib.h"
+#include "puck_block.h"
+#include "math.h"
+
+unsigned int predict_intercept(int x_dir, int y_dir, unsigned int x_pos, unsigned int y_pos)
+{
+	int x_translated;
+	int y_translated;
+
+	x_translated = x_pos - x_low; // shifting x and y to 0,0 system
+	y_translated = y_pos - y_low;
+
+	int m;
+	int y_target;
+	if(x_dir > 0) // if puck is going away.
+	{
+		return 1000; // goto mid position
+	}
+	else
+	{
+		return y_pos;
+	}
+	/*
+	else
+	{
+		m = y_dir/x_dir;
+		y_target = y_translated*x_translated/x_dir
+		while(y_target < 0 || y_target > y_high)
+		{
+			if(y_target < 0)
+			{
+				y_target = abs(y_target);
+			}
+			if(y_target > y_high)
+			{
+				y_target = y_target-y_high;
+			}
+		}
+		return y_target;
+	}
+	*/
+}
+
+
+void do_work()
+{
+	int x1_pos, x2_pos;
+	int y1_pos, y2_pos;
+
+	int x_dir, y_dir;
+	int speed;
+	int avg;
+	int i;
+	i = 0;
+	avg = 0;
+	int soft_tol;
+	soft_tol= 0; // 0 for now
+	int x_limit; // this is the x location if the puck is away from here no calculation is done.
+	x_limit = 800;
+
+	if (strategy == 1)
+	{
+		set_pos(get_y_pos());
+	}
+	else if(strategy == 2)
+	{
+
+		//for (i = 0; i< 20; i++)
+		//{
+		//	avg = avg+get_y_pos();
+			//MB_Sleep(10);
+		//}
+		//avg = avg/i;
+
+		x1_pos = get_x_pos();
+		y1_pos = get_y_pos();
+		MB_Sleep(10);
+		x2_pos = get_x_pos();
+		y2_pos = get_y_pos();
+
+		if((x1_pos < x_low) || (x1_pos > x_high) || (x2_pos < x_low) || (x2_pos > x_high)) // check error conditions
+		{
+			return;
+		}
+
+		if((y1_pos < y_low) || (y1_pos > y_high) || (y2_pos < y_low) || (y2_pos > y_high) )// check error conditions
+		{
+			return;
+		}
+		if((y1_pos == 1063) || (y2_pos == 1063) || (x1_pos == 1500) || (x2_pos == 1500)) // jashva's auto centering
+		{
+			return;
+		}
+
+		
+		while (abs(x2_pos - x1_pos) < soft_tol) // keep waiting untill it moves. x or y shouldn't really matter.
+		{
+			x2_pos = get_x_pos();
+		}
+
+		if (x2_pos < x_limit) // puck is in our side not human's
+		{
+			x_dir = x2_pos - x1_pos; //-ve moving towards us.
+			y_dir = y2_pos - y1_pos; // -ve going towards y = 0
+			speed = sqrt(x_dir*x_dir + y_dir*y_dir);
+			//printf("x_dir = %d, y_dir = %d \n",x1_pos, y1_pos); // prints can slow things down
+			int gohere;
+			gohere = predict_intercept(x_dir, y_dir, x2_pos, y2_pos); // find where it will intersect
+			set_pos(gohere); // go there.
+		}
+	}
+	else
+	{
+		set_pos(get_y_pos());
+	}
+}

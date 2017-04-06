@@ -1,0 +1,47 @@
+21:24:26 **** Auto Build of configuration Debug for project hdmi_v6 ****
+make all 
+'Building file: ../src/video_demo.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/video_demo.o" -I../../hdmi_v6_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v9.6 -mno-xl-soft-mul -mxl-multiply-high -mhard-float -mxl-float-convert -mxl-float-sqrt -Wl,--no-relax -MMD -MP -MF"src/video_demo.d" -MT"src/video_demo.o" -o "src/video_demo.o" "../src/video_demo.c"
+In file included from ../src/demo.h:35:0,
+                 from ../src/video_demo.c:49:
+../src/audio/audio.h:77:26: error: 'XPAR_D_AXI_I2S_AUDIO_0_AXI_L_BASEADDR' undeclared here (not in a function)
+ #define AUDIO_CTL_ADDR   XPAR_D_AXI_I2S_AUDIO_0_AXI_L_BASEADDR
+                          ^
+../src/audio/audio.h:162:21: note: in expansion of macro 'AUDIO_CTL_ADDR'
+  I2S_RESET_REG    = AUDIO_CTL_ADDR,
+                     ^
+../src/video_demo.c:118:3: error: 'XPAR_AXI_INTC_0_AXI_IIC_0_IIC2INTC_IRPT_INTR' undeclared here (not in a function)
+  {XPAR_AXI_INTC_0_AXI_IIC_0_IIC2INTC_IRPT_INTR, (XInterruptHandler)XIic_InterruptHandler, &sIic},
+   ^
+../src/video_demo.c:120:3: error: 'XPAR_AXI_INTC_0_AXI_DMA_0_S2MM_INTROUT_INTR' undeclared here (not in a function)
+  {XPAR_AXI_INTC_0_AXI_DMA_0_S2MM_INTROUT_INTR, (XInterruptHandler)fnS2MMInterruptHandler, &sAxiDma},
+   ^
+../src/video_demo.c:122:3: error: 'XPAR_AXI_INTC_0_AXI_DMA_0_MM2S_INTROUT_INTR' undeclared here (not in a function)
+  {XPAR_AXI_INTC_0_AXI_DMA_0_MM2S_INTROUT_INTR, (XInterruptHandler)fnMM2SInterruptHandler, &sAxiDma},
+   ^
+../src/video_demo.c:124:3: error: 'XPAR_AXI_INTC_0_AXI_GPIO_0_IP2INTC_IRPT_INTR' undeclared here (not in a function)
+  {XPAR_AXI_INTC_0_AXI_GPIO_0_IP2INTC_IRPT_INTR, (XInterruptHandler)fnUserIOIsr, &sUserIO}
+   ^
+../src/video_demo.c: In function 'main':
+../src/video_demo.c:323:2: warning: implicit declaration of function 'puck_block_init' [-Wimplicit-function-declaration]
+  puck_block_init();
+  ^
+../src/video_demo.c: In function 'DemoRun':
+../src/video_demo.c:504:11: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+    printf("%d", locked);
+           ^
+../src/video_demo.c:504:11: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+../src/video_demo.c: In function 'DemoPrintMenu':
+../src/video_demo.c:597:9: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("*Display Frame Index: %27d*\n\r", dispCtrl.curFrame);
+         ^
+../src/video_demo.c:597:9: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+../src/video_demo.c:600:9: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+  printf("*Video Frame Index: %29d*\n\r", videoCapt.curFrame);
+         ^
+../src/video_demo.c:600:9: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
+make: *** [src/video_demo.o] Error 1
+
+21:24:26 Build Finished (took 422ms)
+

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<document>
+<!--The data in this file is primarily intended for consumption by Xilinx tools.
+The structure and the elements are likely to change over the next few releases.
+This means code written to parse this file will need to be revisited each subsequent release.-->
+<application name="pa" timeStamp="Thu Mar 30 18:29:39 2017">
+<section name="Project Information" visible="false">
+<property name="ProjectID" value="a5727d55b26b4ccd928020c5516d2fd5" type="ProjectID"/>
+<property name="ProjectIteration" value="1" type="ProjectIteration"/>
+</section>
+<section name="PlanAhead Usage" visible="true">
+<item name="Project Data">
+<property name="SrcSetCount" value="1" type="SrcSetCount"/>
+<property name="ConstraintSetCount" value="1" type="ConstraintSetCount"/>
+<property name="DesignMode" value="RTL" type="DesignMode"/>
+<property name="SynthesisStrategy" value="Vivado Synthesis Defaults" type="SynthesisStrategy"/>
+<property name="ImplStrategy" value="Vivado Implementation Defaults" type="ImplStrategy"/>
+</item>
+<item name="Java Command Handlers">
+<property name="AutoInferInterfaceHandler" value="1" type="JavaHandler"/>
+<property name="EditUndo" value="1" type="JavaHandler"/>
+<property name="RunSynthesis" value="1" type="JavaHandler"/>
+</item>
+<item name="Gui Resources Info">
+<property name="PAResourceQtoS.ReviewContentPanel_RE_PACKAGE_IP, Re-Package IP" value="1" type="GuiResourceData"/>
+<property name="RDIResource.BaseDialog_CANCEL, Cancel" value="1" type="GuiResourceData"/>
+<property name="stable_puck_detection_v1_0.v, 540, 263" value="1" type="GuiResourceData"/>
+<property name="stable_puck_detection_v1_0.v, 677, 200" value="1" type="GuiResourceData"/>
+<property name="stable_puck_detection_v1_0.v, 693, 338" value="1" type="GuiResourceData"/>
+<property name="stable_puck_detection_v1_0.v, 698, 202" value="1" type="GuiResourceData"/>
+<property name="stable_puck_detection_v1_0_M00_AXIS.v, 550, 170" value="1" type="GuiResourceData"/>
+<property name="stable_puck_detection_v1_0_S00_AXI.v, 353, 371" value="1" type="GuiResourceData"/>
+<property name="stable_puck_detection_v1_0_S00_AXI.v, 469, 371" value="1" type="GuiResourceData"/>
+<property name="stable_puck_detection_v1_0_S00_AXI.v, 614, 158" value="1" type="GuiResourceData"/>
+<property name="stable_puck_detection_v1_0_S00_AXIS.v, 365, 314" value="1" type="GuiResourceData"/>
+<property name="stable_puck_detection_v1_0_S00_AXIS.v, 369, 314" value="1" type="GuiResourceData"/>
+<property name="stable_puck_detection_v1_0_S00_AXIS.v, 481, 228" value="1" type="GuiResourceData"/>
+<property name="stable_puck_detection_v1_0_S00_AXIS.v, 484, 316" value="1" type="GuiResourceData"/>
+<property name="stable_puck_detection_v1_0_S00_AXIS.v, 487, 229" value="1" type="GuiResourceData"/>
+<property name="stable_puck_detection_v1_0_S00_AXIS.v, 525, 313" value="1" type="GuiResourceData"/>
+<property name="stable_puck_detection_v1_0_S00_AXIS.v, 535, 317" value="1" type="GuiResourceData"/>
+<property name="stable_puck_detection_v1_0_S00_AXIS.v, 547, 268" value="1" type="GuiResourceData"/>
+<property name="stable_puck_detection_v1_0_S00_AXIS.v, 564, 374" value="1" type="GuiResourceData"/>
+<property name="stable_puck_detection_v1_0_S00_AXIS.v, 573, 291" value="1" type="GuiResourceData"/>
+<property name="stable_puck_detection_v1_0_S00_AXIS.v, 608, 387" value="1" type="GuiResourceData"/>
+<property name="stable_puck_detection_v1_0_S00_AXIS.v, 636, 385" value="1" type="GuiResourceData"/>
+<property name="stable_puck_detection_v1_0_S00_AXIS.v, 656, 111" value="1" type="GuiResourceData"/>
+<property name="stable_puck_detection_v1_0_S00_AXIS.v, 742, 231" value="1" type="GuiResourceData"/>
+<property name="stable_puck_detection_v1_0_S00_AXIS.v, 787, 320" value="1" type="GuiResourceData"/>
+<property name="stable_puck_detection_v1_0_S00_AXIS.v, 871, 125" value="1" type="GuiResourceData"/>
+</item>
+<item name="Other">
+<property name="GuiMode" value="158" type="GuiMode"/>
+<property name="BatchMode" value="0" type="BatchMode"/>
+<property name="TclMode" value="135" type="TclMode"/>
+</item>
+</section>
+</application>
+</document>

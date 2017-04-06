@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/Xilinx/Projects/image_proc/NexysVideo-master_v3/Projects/hdmi/proj/hdmi.hw/hw_1/wave/hw_ila_data_1/hw_ila_data_1.wdb" id="1">
+         <top_modules>
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="3705150fs"></ZoomEndTime>
+      <Cursor1Time time="11000fs"></Cursor1Time>
+   </zoom_setting>
+   <WVObjectSize size="31" />
+   <wvobject fp_name="hdmi_i/ENC_1_1" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">hdmi_i/ENC_1_1</obj_property>
+      <obj_property name="ObjectShortName">ENC_1_1</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="hdmi_i/ENC_2_1" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">hdmi_i/ENC_2_1</obj_property>
+      <obj_property name="ObjectShortName">ENC_2_1</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="hdmi_i/MODE_1" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">hdmi_i/MODE_1[1:0]</obj_property>
+      <obj_property name="ObjectShortName">MODE_1[1:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="hdmi_i/miso_1" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">hdmi_i/miso_1</obj_property>
+      <obj_property name="ObjectShortName">miso_1</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="hdmi_i/motor_ip_mar27_0_DIR_1" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">hdmi_i/motor_ip_mar27_0_DIR_1</obj_property>
+      <obj_property name="ObjectShortName">motor_ip_mar27_0_DIR_1</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="hdmi_i/motor_ip_mar27_0_DIR_2" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">hdmi_i/motor_ip_mar27_0_DIR_2</obj_property>
+      <obj_property name="ObjectShortName">motor_ip_mar27_0_DIR_2</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="hdmi_i/motor_ip_mar27_0_PWM" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">hdmi_i/motor_ip_mar27_0_PWM</obj_property>
+      <obj_property name="ObjectShortName">motor_ip_mar27_0_PWM</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="hdmi_i/packaged_joystick_0_mosi" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">hdmi_i/packaged_joystick_0_mosi</obj_property>
+      <obj_property name="ObjectShortName">packaged_joystick_0_mosi</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="hdmi_i/packaged_joystick_0_motor_position" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">hdmi_i/packaged_joystick_0_motor_position</obj_property>
+      <obj_property name="ObjectShortName">packaged_joystick_0_motor_position</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="hdmi_i/packaged_joystick_0_motor_speed" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">hdmi_i/packaged_joystick_0_motor_speed[31:0]</obj_property>
+      <obj_property name="ObjectShortName">packaged_joystick_0_motor_speed[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="hdmi_i/packaged_joystick_0_sclk" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">hdmi_i/packaged_joystick_0_sclk</obj_property>
+      <obj_property name="ObjectShortName">packaged_joystick_0_sclk</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="hdmi_i/packaged_joystick_0_ss" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">hdmi_i/packaged_joystick_0_ss</obj_property>
+      <obj_property name="ObjectShortName">packaged_joystick_0_ss</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="hdmi_i/puck_detection_block_0_y_pos_per_frame" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">hdmi_i/puck_detection_block_0_y_pos_per_frame[31:0]</obj_property>
+      <obj_property name="ObjectShortName">puck_detection_block_0_y_pos_per_frame[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="hdmi_i/stable_puck_detection_0_bottom_y_edge_case" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">hdmi_i/stable_puck_detection_0_bottom_y_edge_case[31:0]</obj_property>
+      <obj_property name="ObjectShortName">stable_puck_detection_0_bottom_y_edge_case[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="hdmi_i/stable_puck_detection_0_h_start_value" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">hdmi_i/stable_puck_detection_0_h_start_value[31:0]</obj_property>
+      <obj_property name="ObjectShortName">stable_puck_detection_0_h_start_value[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="hdmi_i/stable_puck_detection_0_h_stop_value" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">hdmi_i/stable_puck_detection_0_h_stop_value[31:0]</obj_property>
+      <obj_property name="ObjectShortName">stable_puck_detection_0_h_stop_value[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="hdmi_i/stable_puck_detection_0_motor_offset_x" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">hdmi_i/stable_puck_detection_0_motor_offset_x[31:0]</obj_property>
+      <obj_property name="ObjectShortName">stable_puck_detection_0_motor_offset_x[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="hdmi_i/stable_puck_detection_0_motor_offset_y" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">hdmi_i/stable_puck_detection_0_motor_offset_y[31:0]</obj_property>
+      <obj_property name="ObjectShortName">stable_puck_detection_0_motor_offset_y[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="hdmi_i/stable_puck_detection_0_motor_update_rate" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">hdmi_i/stable_puck_detection_0_motor_update_rate[31:0]</obj_property>
+      <obj_property name="ObjectShortName">stable_puck_detection_0_motor_update_rate[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="hdmi_i/stable_puck_detection_0_new_color" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">hdmi_i/stable_puck_detection_0_new_color[31:0]</obj_property>
+      <obj_property name="ObjectShortName">stable_puck_detection_0_new_color[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="hdmi_i/stable_puck_detection_0_pixel_count_target" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">hdmi_i/stable_puck_detection_0_pixel_count_target[31:0]</obj_property>
+      <obj_property name="ObjectShortName">stable_puck_detection_0_pixel_count_target[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="hdmi_i/stable_puck_detection_0_threshold_level" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">hdmi_i/stable_puck_detection_0_threshold_level[31:0]</obj_property>
+      <obj_property name="ObjectShortName">stable_puck_detection_0_threshold_level[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="hdmi_i/stable_puck_detection_0_threshold_pos1" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">hdmi_i/stable_puck_detection_0_threshold_pos1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">stable_puck_detection_0_threshold_pos1[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="hdmi_i/stable_puck_detection_0_threshold_pos2" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">hdmi_i/stable_puck_detection_0_threshold_pos2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">stable_puck_detection_0_threshold_pos2[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="hdmi_i/stable_puck_detection_0_top_y_edge_case" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">hdmi_i/stable_puck_detection_0_top_y_edge_case[31:0]</obj_property>
+      <obj_property name="ObjectShortName">stable_puck_detection_0_top_y_edge_case[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="hdmi_i/stable_puck_detection_0_use_default" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">hdmi_i/stable_puck_detection_0_use_default[31:0]</obj_property>
+      <obj_property name="ObjectShortName">stable_puck_detection_0_use_default[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="hdmi_i/stable_puck_detection_0_v_start_value" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">hdmi_i/stable_puck_detection_0_v_start_value[31:0]</obj_property>
+      <obj_property name="ObjectShortName">stable_puck_detection_0_v_start_value[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="hdmi_i/stable_puck_detection_0_v_stop_value" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">hdmi_i/stable_puck_detection_0_v_stop_value[31:0]</obj_property>
+      <obj_property name="ObjectShortName">stable_puck_detection_0_v_stop_value[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="hdmi_i/stable_puck_detection_0_valid_data" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">hdmi_i/stable_puck_detection_0_valid_data</obj_property>
+      <obj_property name="ObjectShortName">stable_puck_detection_0_valid_data</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="hdmi_i/stable_puck_detection_0_video_lines" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">hdmi_i/stable_puck_detection_0_video_lines[31:0]</obj_property>
+      <obj_property name="ObjectShortName">stable_puck_detection_0_video_lines[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="hdmi_i/stable_puck_detection_0_x_pos_per_frame" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">hdmi_i/stable_puck_detection_0_x_pos_per_frame[31:0]</obj_property>
+      <obj_property name="ObjectShortName">stable_puck_detection_0_x_pos_per_frame[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+</wave_config>

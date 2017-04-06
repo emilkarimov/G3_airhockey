@@ -1,0 +1,22 @@
+#-----------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Wed Mar 29 14:35:14 2017
+# Process ID: 8176
+# Current directory: C:/Users/Jash/Desktop/packaged joystick/ip_repo
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent5636 C:\Users\Jash\Desktop\packaged joystick\ip_repo\edit_packaged_joystick_v1_0.xpr
+# Log file: C:/Users/Jash/Desktop/packaged joystick/ip_repo/vivado.log
+# Journal file: C:/Users/Jash/Desktop/packaged joystick/ip_repo\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/Jash/Desktop/packaged joystick/ip_repo/edit_packaged_joystick_v1_0.xpr}
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Jash/Desktop/packaged joystick/ip_repo/packaged_joystick_1.0'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2016.2/data/ip'.
+open_project: Time (s): cpu = 00:00:18 ; elapsed = 00:00:11 . Memory (MB): peak = 824.762 ; gain = 168.391
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Mar 29 16:55:02 2017...

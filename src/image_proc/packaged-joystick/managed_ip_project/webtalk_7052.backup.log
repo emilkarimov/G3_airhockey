@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Webtalk v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Tue Mar 28 16:32:32 2017
+# Process ID: 7052
+# Current directory: C:/Users/Jash/Desktop/packaged joystick/managed_ip_project
+# Command line: wbtcv.exe -mode batch -source c:/users/jash/desktop/packaged joystick/managed_ip_project/managed_ip_project.tmp/packaged_joystick_v1_0_v1_0_project/packaged_joystick_v1_0_v1_0_project.hw/webtalk/labtool_webtalk.tcl -notrace joystick/managed_ip_project/managed_ip_project.tmp/packaged_joystick_v1_0_v1_0_project/packaged_joystick_v1_0_v1_0_project.hw/webtalk/labtool_webtalk.log
+# Log file: C:/Users/Jash/Desktop/packaged joystick/managed_ip_project/webtalk.log
+# Journal file: C:/Users/Jash/Desktop/packaged joystick/managed_ip_project\webtalk.jou
+#-----------------------------------------------------------
+invalid command name "rdi::open_ppr_or_dcp"
+INFO: [Common 17-206] Exiting Webtalk at Tue Mar 28 16:32:32 2017...

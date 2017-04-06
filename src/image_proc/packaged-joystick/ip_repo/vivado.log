@@ -1,0 +1,36 @@
+#-----------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Wed Mar 29 17:29:16 2017
+# Process ID: 5596
+# Current directory: C:/Users/Jash/Desktop/packaged joystick/ip_repo
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent8764 C:\Users\Jash\Desktop\packaged joystick\ip_repo\edit_packaged_joystick_v1_0.xpr
+# Log file: C:/Users/Jash/Desktop/packaged joystick/ip_repo/vivado.log
+# Journal file: C:/Users/Jash/Desktop/packaged joystick/ip_repo\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/Jash/Desktop/packaged joystick/ip_repo/edit_packaged_joystick_v1_0.xpr}
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Jash/Desktop/packaged joystick/ip_repo/packaged_joystick_1.0'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2016.2/data/ip'.
+open_project: Time (s): cpu = 00:00:17 ; elapsed = 00:00:10 . Memory (MB): peak = 812.117 ; gain = 154.719
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Jash/Desktop/packaged joystick/ip_repo/packaged_joystick_1.0/hdl/packaged_joystick_v1_0.v" into library work [C:/Users/Jash/Desktop/packaged joystick/ip_repo/packaged_joystick_1.0/hdl/packaged_joystick_v1_0.v:1]
+[Wed Mar 29 17:39:26 2017] Launched synth_1...
+Run output will be captured here: C:/Users/Jash/Desktop/packaged joystick/ip_repo/edit_packaged_joystick_v1_0.runs/synth_1/runme.log
+launch_runs: Time (s): cpu = 00:00:01 ; elapsed = 00:00:14 . Memory (MB): peak = 828.637 ; gain = 0.000
+ipx::open_ipxact_file {C:/Users/Jash/Desktop/packaged joystick/ip_repo/packaged_joystick_1.0/component.xml}
+ipx::merge_project_changes hdl_parameters [ipx::current_core]
+set_property core_revision 12 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+update_ip_catalog -rebuild -repo_path {c:/Users/Jash/Desktop/packaged joystick/ip_repo/packaged_joystick_1.0}
+INFO: [IP_Flow 19-725] Reloaded user IP repository 'c:/Users/Jash/Desktop/packaged joystick/ip_repo/packaged_joystick_1.0'
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Mar 29 17:43:18 2017...

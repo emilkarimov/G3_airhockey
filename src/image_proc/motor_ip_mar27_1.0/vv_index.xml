@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<Index Version="1" Minor="0">
+	<Repository value="c:/Users/Prabhnoor/Desktop/Digital/ip_repo/motor_ip_mar27_1.0">
+	</Repository>
+	<IP>
+		<VLNV value="user:user:motor_ip_mar27:1.0">
+		</VLNV>
+		<DisplayName value="motor_ip_mar27_v1.0">
+		</DisplayName>
+		<Description value="motor ip for Video board">
+		</Description>
+		<CoreRevision value="10">
+		</CoreRevision>
+		<ComponentPath value="component.xml">
+		</ComponentPath>
+		<Families>
+			<Family name="artix7">
+				<Part status="Beta" name="ALL">
+				</Part>
+			</Family>
+		</Families>
+		<Taxonomies>
+			<Taxonomy value="AXI_Peripheral">
+			</Taxonomy>
+		</Taxonomies>
+		<LockPrevVersions value="false">
+		</LockPrevVersions>
+		<Interfaces>
+			<Interface value="AXI4">
+			</Interface>
+		</Interfaces>
+	</IP>
+</Index>
+
